@@ -1,0 +1,25 @@
+{
+	"status": "200", 
+	"result": [
+							{
+								"plantId":"00425741",
+								"plantLocation":"Reno, Nevada",
+								"availableQuantity":"300"
+							},
+							{
+								"plantId":"00429804",
+								"plantLocation":"Forth Worth, Texas",
+								"availableQuantity":"500"
+							},
+							{
+								"plantId":"00445995",
+								"plantLocation":"Monroe, Washington",
+								"availableQuantity":"250"
+							},
+							{
+								"plantId":"00446042",
+								"plantLocation":"Bakersfield, California",
+								"availableQuantity":"300"
+							}
+					  ]
+} 

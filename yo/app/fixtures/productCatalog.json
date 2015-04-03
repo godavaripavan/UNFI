@@ -1,0 +1,3426 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('67263720390645911')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000003012990",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 DI CLASS 53 MJ PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 MJ DI CLASS 53 PIPE",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('67263720390645912')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000003020714",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1-1/2 X 3.63# XH .200 BLK CS CW PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1-1/2 Schedule XH .200 .200 Inch Continuous Weld Black Threaded & Coupled ASTM/ASME A53 UL 21 CS PIP",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('67263720390645913')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000003020748",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 5.03# XH .218 BLK CS CW PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2 Schedule XH .218 .218 Inch Continuous Weld Black Threaded & Coupled ASTM/ASME A53 UL 21 CS PIPE 5.",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('67263720390645914')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000003020750",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 5.03# XH .218 BLK CS CW PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2 Schedule XH .218 .218 Inch Continuous Weld Black A25 Coupling Threaded & Coupled API 5L API Coupli",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('67263720390645915')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000003020820",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 X 10.26# XH .300 BLK CS CW PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 Schedule XH .300 .300 Inch Continuous Weld Black Threaded & Coupled ASTM/ASME A53 21 UL CS PIPE 10",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('67263720390645916')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000003030088",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/4 X0.43# STD .088 BARE NOMILL OIL PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/4 Schedule STD .088 .088 Inch Continuous Weld NO MILL Threaded & Coupled Oil ASTM/ASME A53 UL 21 C",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('67263720390645917')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000008671499",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2020403 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Water Service BRZ 2020403",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8477"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('67263720390645918')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000008671500",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3/4 CONBRACO 2020700 WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3/4 Conbraco Gauge Water Service 2020700",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8497"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('67263720390645919')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000008671520",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2025000 BRASS STOP GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Stop 12 SIGHT GLASS 20-250-00 BRASS 2025000",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8499"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459110')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000008671521",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO BRASS STOP GAUGE MOUNT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Stop O SIGHT GLASS MOUNT BRASS 2025003",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8499"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459111')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000008672610",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 X 5/8 X 12 CONBRACO BRZ Water Gauge",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "5/8 1/2 Conbraco Gauge Water Service 5/8 X 12 GLASS BRZ 2015000 12",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8499"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459112')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000008672611",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2020503 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Water Service 5/8 GLASS O GLASS & RODS BRZ 2020503",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8497"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459113')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000008672612",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3/4 CONBRACO 2020703 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3/4 Conbraco ROUGH Gauge Water Service O GLASS & RODS BRASS 2020703",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459114')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000008672613",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "5/8X12 CONBRACO 2120400 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "12 5/8 Conbraco ROUGH Gauge Water Service EXTENDED SHANK BRZ 2120400",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8497"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459115')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000008675005",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2010400 ROUGH WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco STD Psi Brass Gauge Water Service 2010400 ROUGH",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8496"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459116')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000008678254",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2010403 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Water Service O ROD/GLASS BRZ 2010403",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8495"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459117')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000008960010",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1-1/2 MASTER PNEUMATIC 60MDD RANGE GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1-1/2 Master Pneumatic 0-60 Psi Gauge 1/8\" NPT 60MDD RANGE",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8497"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459118')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000008960012",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1-1/2 MASTER PNEUMATIC 70MDD RANGE GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1-1/2 Master Pneumatic 0-160 Psi Gauge Center Back Mount 1/8\" NPT 70MDD RANGE",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8494"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459119')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000012320421",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "WATTS 0-160# AIR PRESSURE REGULATOR",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Watts 0-160# Psi Gauge Air Regulator Pressure Air 275Y160WS",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8495"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459120')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000061132161",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "FLOMORE 300-01 DRUM GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Flomore Gauge Drum 300-01",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8496"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459121')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000061196560",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "0-5000# TYPE D MUD GAUGE REMANUFACTURED",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "0-5000# Psi Remanufactured Mud Type D Gauge EXCHANGE",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8496"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459122')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000061565264",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "ALUMINUM FLOAT GAUGE 500 GAL",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Gauge Float Float GAL 500 ALUMINUM",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8496"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459123')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000061582055",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 X 8 PETOL SIGHT GLASS GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8 3 Petol 500# Psi Glass Sight Gauge SG0-500-3",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459124')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000061582097",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 X 8 PETOL SIGHT GLASS GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "72 5/8 Glass Gauge Sight PLASTIC",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459125')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000061582683",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "KIMRAY 603 30# GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Kimray 30# Psi Gauge 603",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459126')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000061669456",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8FT HARBISON FISCHER 5-879K308 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8FT HARBISON FISCHER 5-879K308 Pup Joint Pup Joint 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459127')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000061669475",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2FT HARBISON FISCHER 879K302 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2FT HARBISON FISCHER 879K302 Pup Pup Joint Joint API API 5CT 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459128')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000061669476",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3FT HARBISON FISCHER 879K303 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3FT HARBISON FISCHER 879K303 Pup Joint Pup Joint API API 5CT 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459129')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000061669478",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "6FT FISCHER HARBISON 879K306 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "6FT FISCHER HARBISON 879K306 Pup Pup Joint Joint API 5CT API 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459130')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000061669479",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8FT FISCHER HARBISON 879K308 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8FT FISCHER HARBISON 879K308 Pup Joint Pup Joint API 5CT API 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459131')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000062520247",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 18 HYD HOSE W/ ENDS",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "18 Inch 2 Inch Hose Hydraulic ENDS",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459132')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000062520248",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3/4 GATES ECONO FLEX MULTI-PURPOSE HOSE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3/4 Inch 3204-0333 Gates 200 Psi Hose Female Multipupose Econo Flex 200",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459133')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000062520249",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 24 HYD HOSE W/ ENDS",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "24 Inch 2 Inch Hose Hydraulic ENDS",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459134')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000062520253",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 3FT BRAIDED FLEX HOSE W/MNPT ENDS",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 2 Inch Flex Hose MNPT ENDS Braided Flex",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8499"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459135')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000062520254",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/4 CLEAR PLASTIC HOSE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/4 Inch CLEAR Plastic Hose",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459136')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000062533048",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 PT COUPLING B05 225F BUNA-N GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2 B05 Pt Coupling Buna N Gasket H6388-M) (OPW 225F",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459137')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000062533064",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 PT COUPLING B07 225F BUNA-N GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 B07 Pt Coupling Buna N Gasket H6471-M) (OPW 225F",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459138')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000062533072",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 PT COUPLING B08 225F BUNA-N GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 B08 Pt Coupling Buna N Gasket H6476-M) (OPW 225F",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459139')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063074011",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "12 SECOR FBF1200HDPE010 PE4710 BLIND",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "12 FBF1200HDPE010 Secor PE 4710 Flange Blind Polyethylene 1\"_THK",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8496"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459140')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063074019",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 SECOR PE4710 BLIND FLANGE 1\" THK",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 BF0450HDPE010 Secor PE 4710 Flange Blind Polyethylene 1\"_THK",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8499"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459141')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063074020",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8 Secor PE 4710 Blind FLANGE 1\" THK",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8 BF0863HDPE010 Secor PE 4710 Blind Flange Polyethylene 1\"_THK",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459142')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063077712",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "12 Specified PE 4710 Flange Blind",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "12 Specified PE 4710 Flange Blind Low Pressure Low Pressure Polyethylene",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8499"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459143')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063077956",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "10 RAINMAKER 150# PE4710 BLIND FLG",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "10 Rainmaker 150# Lb PE 4710 Blind Flange Polyethylene",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459144')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063077957",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "6 RAINMAKER 150# PE4710 BLIND FLG",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "6 Rainmaker 150# Lb PE 4710 Flange Blind Polyethylene",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459145')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063077958",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 RAINMAKER SDR11 PE4710 BLIND FLG",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 Rainmaker PE 4710 Flange Blind Polyethylene SDR11",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459146')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063077959",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 ISCO 49030012 150# PE4710 BLIND FLG",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 49030012 Isco 150# Lb PE 4710 Blind Flange Polyethylene",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459147')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063285838",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "6 PSI 150# LINEBACKER RING TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "6 Linebacker Type F 150# Lb Phenolic/Nitrile Gasket Ring ONLY PSI",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459148')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063285839",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8 PSI 150# LINEBACKER RING TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8 Linebacker Type F 150# Lb Phenolic/Nitrile Ring Gasket ONLY PSI",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8499"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459149')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063285840",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "6 PSI 300# LINEBACKER RING TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "6 Linebacker Type F 300# Lb Phenolic/Nitrile Ring Gasket ONLY PSI",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459150')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063285841",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8 PSI 300# LINEBACKER RING TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8 Linebacker Type F 300# Lb Phenolic/Nitrile Ring Gasket ONLY PSI",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459151')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063285842",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 PSI 600# LINEBACKER FF TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 Linebacker Type F 600# Lb Phenolic/Nitrile Gasket ONLY PSI FF",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8499"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459152')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063285843",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 PSI 150# LINEBACKER FF TYPE E GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2 Linebacker Type E 150# Lb Phenolic/Nitrile Gasket ONLY PSI FF",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459153')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000063285844",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 PSI 150# LINEBACKER FF TYPE E GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 Linebacker Type E 150# Lb Phenolic/Nitrile Gasket ONLY PSI FF",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459154')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000099751500",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Rack&Pinion Actuator Pneumatic",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Rack & Pinion Actuator Pneumatic ED0025.U1A00A.S11KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459155')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000099751501",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Pneumatic Actuator Rack & Pinion ED0040.U1A00A.S14KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459156')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000099751502",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Pneumatic Actuator Rack & Pinion ED0065.U1A00A.S14KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459157')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000099751503",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Rack & Pinion Pneumatic Actuator ED0100.U1A00A.S19KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459158')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000099751505",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Pneumatic Rack & Pinion Actuator ED0600.U1A00A.S27KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459159')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000099751506",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Actuator Rack & Pinion Pneumatic ES0012.U0A02A.S09KS0 SPRING RETURN",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8498"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459160')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "1000",
+        "PLANT_TEXT": "Houston",
+        "PLANT_TYPE": "R",
+        "MATNR": "000000000099751507",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Rack & Pinion Pneumatic Actuator ES0025.U1A04A.S11KS0 SPRING RETURN",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8499"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459161')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000003012990",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 DI CLASS 53 MJ PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 MJ DI CLASS 53 PIPE",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459162')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000003020714",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1-1/2 X 3.63# XH .200 BLK CS CW PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1-1/2 Schedule XH .200 .200 Inch Continuous Weld Black Threaded & Coupled ASTM/ASME A53 UL 21 CS PIP",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459163')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000003020748",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 5.03# XH .218 BLK CS CW PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2 Schedule XH .218 .218 Inch Continuous Weld Black Threaded & Coupled ASTM/ASME A53 UL 21 CS PIPE 5.",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459164')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000003020750",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 5.03# XH .218 BLK CS CW PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2 Schedule XH .218 .218 Inch Continuous Weld Black A25 Coupling Threaded & Coupled API 5L API Coupli",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459165')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000003020820",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 X 10.26# XH .300 BLK CS CW PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 Schedule XH .300 .300 Inch Continuous Weld Black Threaded & Coupled ASTM/ASME A53 21 UL CS PIPE 10",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459166')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000003030088",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/4 X0.43# STD .088 BARE NOMILL OIL PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/4 Schedule STD .088 .088 Inch Continuous Weld NO MILL Threaded & Coupled Oil ASTM/ASME A53 UL 21 C",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459167')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000008671499",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2020403 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Water Service BRZ 2020403",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459168')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000008671500",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3/4 CONBRACO 2020700 WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3/4 Conbraco Gauge Water Service 2020700",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459169')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000008671520",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2025000 BRASS STOP GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Stop 12 SIGHT GLASS 20-250-00 BRASS 2025000",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459170')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000008671521",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO BRASS STOP GAUGE MOUNT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Stop O SIGHT GLASS MOUNT BRASS 2025003",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459171')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000008672610",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 X 5/8 X 12 CONBRACO BRZ Water Gauge",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "5/8 1/2 Conbraco Gauge Water Service 5/8 X 12 GLASS BRZ 2015000 12",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459172')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000008672611",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2020503 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Water Service 5/8 GLASS O GLASS & RODS BRZ 2020503",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459173')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000008672612",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3/4 CONBRACO 2020703 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3/4 Conbraco ROUGH Gauge Water Service O GLASS & RODS BRASS 2020703",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459174')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000008672613",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "5/8X12 CONBRACO 2120400 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "12 5/8 Conbraco ROUGH Gauge Water Service EXTENDED SHANK BRZ 2120400",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459175')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000008675005",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2010400 ROUGH WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco STD Psi Brass Gauge Water Service 2010400 ROUGH",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459176')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000008678254",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2010403 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Water Service O ROD/GLASS BRZ 2010403",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459177')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000008960010",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1-1/2 MASTER PNEUMATIC 60MDD RANGE GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1-1/2 Master Pneumatic 0-60 Psi Gauge 1/8\" NPT 60MDD RANGE",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459178')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000008960012",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1-1/2 MASTER PNEUMATIC 70MDD RANGE GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1-1/2 Master Pneumatic 0-160 Psi Gauge Center Back Mount 1/8\" NPT 70MDD RANGE",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459179')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000012320421",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "WATTS 0-160# AIR PRESSURE REGULATOR",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Watts 0-160# Psi Gauge Air Regulator Pressure Air 275Y160WS",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459180')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000061132161",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "FLOMORE 300-01 DRUM GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Flomore Gauge Drum 300-01",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459181')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000061196560",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "0-5000# TYPE D MUD GAUGE REMANUFACTURED",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "0-5000# Psi Remanufactured Mud Type D Gauge EXCHANGE",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459182')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000061565264",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "ALUMINUM FLOAT GAUGE 500 GAL",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Gauge Float Float GAL 500 ALUMINUM",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459183')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000061582055",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 X 8 PETOL SIGHT GLASS GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8 3 Petol 500# Psi Glass Sight Gauge SG0-500-3",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459184')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000061582097",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 X 8 PETOL SIGHT GLASS GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "72 5/8 Glass Gauge Sight PLASTIC",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459185')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000061582683",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "KIMRAY 603 30# GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Kimray 30# Psi Gauge 603",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459186')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000061669456",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8FT HARBISON FISCHER 5-879K308 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8FT HARBISON FISCHER 5-879K308 Pup Joint Pup Joint 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459187')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000061669475",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2FT HARBISON FISCHER 879K302 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2FT HARBISON FISCHER 879K302 Pup Pup Joint Joint API API 5CT 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459188')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000061669476",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3FT HARBISON FISCHER 879K303 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3FT HARBISON FISCHER 879K303 Pup Joint Pup Joint API API 5CT 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459189')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000061669478",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "6FT FISCHER HARBISON 879K306 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "6FT FISCHER HARBISON 879K306 Pup Pup Joint Joint API 5CT API 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459190')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000061669479",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8FT FISCHER HARBISON 879K308 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8FT FISCHER HARBISON 879K308 Pup Joint Pup Joint API 5CT API 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459191')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000062520247",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 18 HYD HOSE W/ ENDS",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "18 Inch 2 Inch Hose Hydraulic ENDS",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459192')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000062520248",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3/4 GATES ECONO FLEX MULTI-PURPOSE HOSE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3/4 Inch 3204-0333 Gates 200 Psi Hose Female Multipupose Econo Flex 200",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459193')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000062520249",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 24 HYD HOSE W/ ENDS",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "24 Inch 2 Inch Hose Hydraulic ENDS",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459194')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000062520253",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 3FT BRAIDED FLEX HOSE W/MNPT ENDS",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 2 Inch Flex Hose MNPT ENDS Braided Flex",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459195')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000062520254",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/4 CLEAR PLASTIC HOSE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/4 Inch CLEAR Plastic Hose",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459196')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000062533048",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 PT COUPLING B05 225F BUNA-N GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2 B05 Pt Coupling Buna N Gasket H6388-M) (OPW 225F",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459197')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000062533064",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 PT COUPLING B07 225F BUNA-N GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 B07 Pt Coupling Buna N Gasket H6471-M) (OPW 225F",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459198')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000062533072",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 PT COUPLING B08 225F BUNA-N GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 B08 Pt Coupling Buna N Gasket H6476-M) (OPW 225F",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('672637203906459199')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063074011",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "12 SECOR FBF1200HDPE010 PE4710 BLIND",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "12 FBF1200HDPE010 Secor PE 4710 Flange Blind Polyethylene 1\"_THK",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591100')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063074019",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 SECOR PE4710 BLIND FLANGE 1\" THK",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 BF0450HDPE010 Secor PE 4710 Flange Blind Polyethylene 1\"_THK",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591101')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063074020",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8 Secor PE 4710 Blind FLANGE 1\" THK",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8 BF0863HDPE010 Secor PE 4710 Blind Flange Polyethylene 1\"_THK",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591102')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063077712",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "12 Specified PE 4710 Flange Blind",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "12 Specified PE 4710 Flange Blind Low Pressure Low Pressure Polyethylene",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591103')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063077956",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "10 RAINMAKER 150# PE4710 BLIND FLG",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "10 Rainmaker 150# Lb PE 4710 Blind Flange Polyethylene",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591104')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063077957",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "6 RAINMAKER 150# PE4710 BLIND FLG",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "6 Rainmaker 150# Lb PE 4710 Flange Blind Polyethylene",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591105')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063077958",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 RAINMAKER SDR11 PE4710 BLIND FLG",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 Rainmaker PE 4710 Flange Blind Polyethylene SDR11",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591106')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063077959",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 ISCO 49030012 150# PE4710 BLIND FLG",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 49030012 Isco 150# Lb PE 4710 Blind Flange Polyethylene",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591107')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063285838",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "6 PSI 150# LINEBACKER RING TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "6 Linebacker Type F 150# Lb Phenolic/Nitrile Gasket Ring ONLY PSI",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591108')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063285839",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8 PSI 150# LINEBACKER RING TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8 Linebacker Type F 150# Lb Phenolic/Nitrile Ring Gasket ONLY PSI",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591109')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063285840",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "6 PSI 300# LINEBACKER RING TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "6 Linebacker Type F 300# Lb Phenolic/Nitrile Ring Gasket ONLY PSI",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591110')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063285841",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8 PSI 300# LINEBACKER RING TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8 Linebacker Type F 300# Lb Phenolic/Nitrile Ring Gasket ONLY PSI",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591111')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063285842",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 PSI 600# LINEBACKER FF TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 Linebacker Type F 600# Lb Phenolic/Nitrile Gasket ONLY PSI FF",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591112')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063285843",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 PSI 150# LINEBACKER FF TYPE E GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2 Linebacker Type E 150# Lb Phenolic/Nitrile Gasket ONLY PSI FF",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591113')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000063285844",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 PSI 150# LINEBACKER FF TYPE E GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 Linebacker Type E 150# Lb Phenolic/Nitrile Gasket ONLY PSI FF",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591114')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000099751500",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Rack&Pinion Actuator Pneumatic",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Rack & Pinion Actuator Pneumatic ED0025.U1A00A.S11KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591115')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000099751501",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Pneumatic Actuator Rack & Pinion ED0040.U1A00A.S14KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591116')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000099751502",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Pneumatic Actuator Rack & Pinion ED0065.U1A00A.S14KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591117')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000099751503",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Rack & Pinion Pneumatic Actuator ED0100.U1A00A.S19KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591118')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000099751505",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Pneumatic Rack & Pinion Actuator ED0600.U1A00A.S27KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591119')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000099751506",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Actuator Rack & Pinion Pneumatic ES0012.U0A02A.S09KS0 SPRING RETURN",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591120')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "425741",
+        "PLANT_TEXT": "Oklahoma City",
+        "PLANT_TYPE": "B",
+        "MATNR": "000000000099751507",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Rack & Pinion Pneumatic Actuator ES0025.U1A04A.S11KS0 SPRING RETURN",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "9000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591121')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000003012990",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 DI CLASS 53 MJ PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 MJ DI CLASS 53 PIPE",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591122')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000003020714",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1-1/2 X 3.63# XH .200 BLK CS CW PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1-1/2 Schedule XH .200 .200 Inch Continuous Weld Black Threaded & Coupled ASTM/ASME A53 UL 21 CS PIP",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591123')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000003020748",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 5.03# XH .218 BLK CS CW PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2 Schedule XH .218 .218 Inch Continuous Weld Black Threaded & Coupled ASTM/ASME A53 UL 21 CS PIPE 5.",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591124')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000003020750",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 5.03# XH .218 BLK CS CW PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2 Schedule XH .218 .218 Inch Continuous Weld Black A25 Coupling Threaded & Coupled API 5L API Coupli",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591125')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000003020820",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 X 10.26# XH .300 BLK CS CW PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 Schedule XH .300 .300 Inch Continuous Weld Black Threaded & Coupled ASTM/ASME A53 21 UL CS PIPE 10",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591126')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000003030088",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/4 X0.43# STD .088 BARE NOMILL OIL PIPE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/4 Schedule STD .088 .088 Inch Continuous Weld NO MILL Threaded & Coupled Oil ASTM/ASME A53 UL 21 C",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591127')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000008671499",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2020403 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Water Service BRZ 2020403",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591128')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000008671500",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3/4 CONBRACO 2020700 WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3/4 Conbraco Gauge Water Service 2020700",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591129')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000008671520",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2025000 BRASS STOP GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Stop 12 SIGHT GLASS 20-250-00 BRASS 2025000",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591130')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000008671521",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO BRASS STOP GAUGE MOUNT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Stop O SIGHT GLASS MOUNT BRASS 2025003",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591131')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000008672610",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 X 5/8 X 12 CONBRACO BRZ Water Gauge",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "5/8 1/2 Conbraco Gauge Water Service 5/8 X 12 GLASS BRZ 2015000 12",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591132')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000008672611",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2020503 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Water Service 5/8 GLASS O GLASS & RODS BRZ 2020503",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591133')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000008672612",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3/4 CONBRACO 2020703 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3/4 Conbraco ROUGH Gauge Water Service O GLASS & RODS BRASS 2020703",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591134')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000008672613",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "5/8X12 CONBRACO 2120400 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "12 5/8 Conbraco ROUGH Gauge Water Service EXTENDED SHANK BRZ 2120400",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591135')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000008675005",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2010400 ROUGH WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco STD Psi Brass Gauge Water Service 2010400 ROUGH",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591136')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000008678254",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/2 CONBRACO 2010403 BRZ WATER GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/2 Conbraco Gauge Water Service O ROD/GLASS BRZ 2010403",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591137')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000008960010",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1-1/2 MASTER PNEUMATIC 60MDD RANGE GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1-1/2 Master Pneumatic 0-60 Psi Gauge 1/8\" NPT 60MDD RANGE",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591138')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000008960012",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1-1/2 MASTER PNEUMATIC 70MDD RANGE GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1-1/2 Master Pneumatic 0-160 Psi Gauge Center Back Mount 1/8\" NPT 70MDD RANGE",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591139')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000012320421",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "WATTS 0-160# AIR PRESSURE REGULATOR",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Watts 0-160# Psi Gauge Air Regulator Pressure Air 275Y160WS",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591140')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000061132161",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "FLOMORE 300-01 DRUM GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Flomore Gauge Drum 300-01",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591141')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000061196560",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "0-5000# TYPE D MUD GAUGE REMANUFACTURED",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "0-5000# Psi Remanufactured Mud Type D Gauge EXCHANGE",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591142')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000061565264",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "ALUMINUM FLOAT GAUGE 500 GAL",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Gauge Float Float GAL 500 ALUMINUM",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591143')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000061582055",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 X 8 PETOL SIGHT GLASS GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8 3 Petol 500# Psi Glass Sight Gauge SG0-500-3",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591144')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000061582097",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 X 8 PETOL SIGHT GLASS GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "72 5/8 Glass Gauge Sight PLASTIC",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591145')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000061582683",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "KIMRAY 603 30# GAUGE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Kimray 30# Psi Gauge 603",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591146')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000061669456",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8FT HARBISON FISCHER 5-879K308 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8FT HARBISON FISCHER 5-879K308 Pup Joint Pup Joint 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591147')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000061669475",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2FT HARBISON FISCHER 879K302 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2FT HARBISON FISCHER 879K302 Pup Pup Joint Joint API API 5CT 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591148')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000061669476",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3FT HARBISON FISCHER 879K303 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3FT HARBISON FISCHER 879K303 Pup Joint Pup Joint API API 5CT 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591149')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000061669478",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "6FT FISCHER HARBISON 879K306 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "6FT FISCHER HARBISON 879K306 Pup Pup Joint Joint API 5CT API 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591150')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000061669479",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8FT FISCHER HARBISON 879K308 Pup Joint",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8FT FISCHER HARBISON 879K308 Pup Joint Pup Joint API 5CT API 2-3/8",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591151')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000062520247",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 18 HYD HOSE W/ ENDS",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "18 Inch 2 Inch Hose Hydraulic ENDS",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591152')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000062520248",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3/4 GATES ECONO FLEX MULTI-PURPOSE HOSE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3/4 Inch 3204-0333 Gates 200 Psi Hose Female Multipupose Econo Flex 200",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591153')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000062520249",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 24 HYD HOSE W/ ENDS",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "24 Inch 2 Inch Hose Hydraulic ENDS",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591154')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000062520253",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 X 3FT BRAIDED FLEX HOSE W/MNPT ENDS",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 2 Inch Flex Hose MNPT ENDS Braided Flex",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591155')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000062520254",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "1/4 CLEAR PLASTIC HOSE",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "1/4 Inch CLEAR Plastic Hose",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591156')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000062533048",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 PT COUPLING B05 225F BUNA-N GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2 B05 Pt Coupling Buna N Gasket H6388-M) (OPW 225F",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591157')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000062533064",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 PT COUPLING B07 225F BUNA-N GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 B07 Pt Coupling Buna N Gasket H6471-M) (OPW 225F",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591158')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000062533072",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 PT COUPLING B08 225F BUNA-N GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 B08 Pt Coupling Buna N Gasket H6476-M) (OPW 225F",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591159')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063074011",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "12 SECOR FBF1200HDPE010 PE4710 BLIND",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "12 FBF1200HDPE010 Secor PE 4710 Flange Blind Polyethylene 1\"_THK",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591160')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063074019",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 SECOR PE4710 BLIND FLANGE 1\" THK",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 BF0450HDPE010 Secor PE 4710 Flange Blind Polyethylene 1\"_THK",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591161')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063074020",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8 Secor PE 4710 Blind FLANGE 1\" THK",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8 BF0863HDPE010 Secor PE 4710 Blind Flange Polyethylene 1\"_THK",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591162')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063077712",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "12 Specified PE 4710 Flange Blind",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "12 Specified PE 4710 Flange Blind Low Pressure Low Pressure Polyethylene",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591163')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063077956",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "10 RAINMAKER 150# PE4710 BLIND FLG",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "10 Rainmaker 150# Lb PE 4710 Blind Flange Polyethylene",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591164')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063077957",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "6 RAINMAKER 150# PE4710 BLIND FLG",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "6 Rainmaker 150# Lb PE 4710 Flange Blind Polyethylene",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591165')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063077958",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 RAINMAKER SDR11 PE4710 BLIND FLG",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 Rainmaker PE 4710 Flange Blind Polyethylene SDR11",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591166')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063077959",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 ISCO 49030012 150# PE4710 BLIND FLG",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 49030012 Isco 150# Lb PE 4710 Blind Flange Polyethylene",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591167')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063285838",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "6 PSI 150# LINEBACKER RING TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "6 Linebacker Type F 150# Lb Phenolic/Nitrile Gasket Ring ONLY PSI",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591168')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063285839",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8 PSI 150# LINEBACKER RING TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8 Linebacker Type F 150# Lb Phenolic/Nitrile Ring Gasket ONLY PSI",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591169')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063285840",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "6 PSI 300# LINEBACKER RING TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "6 Linebacker Type F 300# Lb Phenolic/Nitrile Ring Gasket ONLY PSI",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591170')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063285841",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "8 PSI 300# LINEBACKER RING TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "8 Linebacker Type F 300# Lb Phenolic/Nitrile Ring Gasket ONLY PSI",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591171')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063285842",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "4 PSI 600# LINEBACKER FF TYPE F GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "4 Linebacker Type F 600# Lb Phenolic/Nitrile Gasket ONLY PSI FF",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591172')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063285843",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "2 PSI 150# LINEBACKER FF TYPE E GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "2 Linebacker Type E 150# Lb Phenolic/Nitrile Gasket ONLY PSI FF",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591173')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000063285844",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "3 PSI 150# LINEBACKER FF TYPE E GSKT",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "3 Linebacker Type E 150# Lb Phenolic/Nitrile Gasket ONLY PSI FF",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591174')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000099751500",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Rack&Pinion Actuator Pneumatic",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Rack & Pinion Actuator Pneumatic ED0025.U1A00A.S11KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591175')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000099751501",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Pneumatic Actuator Rack & Pinion ED0040.U1A00A.S14KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591176')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000099751502",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Pneumatic Actuator Rack & Pinion ED0065.U1A00A.S14KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591177')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000099751503",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Rack & Pinion Pneumatic Actuator ED0100.U1A00A.S19KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591178')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000099751505",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Pneumatic Rack & Pinion Actuator ED0600.U1A00A.S27KS0 DOUBLE ACTING",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591179')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000099751506",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Actuator Rack & Pinion Pneumatic ES0012.U0A02A.S09KS0 SPRING RETURN",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      },
+      {
+        "__metadata": {
+          "uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/material_avail.xsodata/Availability('6726372039064591180')",
+          "type": "sap.hana.mrcdemocontent.AvailabilityType"
+        },
+        "PLANT_NO": "426000",
+        "PLANT_TEXT": "Dallas",
+        "PLANT_TYPE": "D",
+        "MATNR": "000000000099751507",
+        "MTART": "FERT",
+        "MAT_MEINS": "EA",
+        "MAT_TEXT": "Elomatic Pneumatic Actuator Rack&Pinion",
+        "MTBEZ": "Finished Product",
+        "ZZ_MAKTX": "Elomatic Rack & Pinion Pneumatic Actuator ES0025.U1A04A.S11KS0 SPRING RETURN",
+        "GROES": "3 FT/ 12 PACK",
+        "MSEHL_1": "each",
+        "STPRS": "100",
+        "QTY_REM": "8000"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+			<div class="modal fade" id="transferModal" tabindex="-1" role="dialog" aria-labelledby="createUserModalLabel" 
+		 aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content dcui-modal-content">
+							<div class="modal-body dsui-modle-font">
+									<div class="row dsui-product-transfer">
+										<form name="createCompanyForm" class="form-horizontal" data-ng-submit="fnAddProducttoCart('crossdock',products.transferObject);">
+											<div class="col-md-8 col-md-offset-2 col-xs-offset-2">
+												<div class="col-md-12">
+													<span class="pull-left" style="margin-top:5px;">Select Branch</span>
+														<span class="pull-left" style="margin-left:20px;">
+															<select class="form-control dsui-select-address-form-control" data-ng-required="true">
+																<option value="" disabled selected>Choose from the following</option>
+																<option>Regional</option>
+																<option>Distribution Center</option>
+																<option>Search Other Branches</option>
+															</select>
+														</span>
+									    	</div>		
+												<p class="clearfix"/>
+												<div class="col-md-12">
+													<div class="pull-left">Select one of the following</div>
+												</div>
+												<p class="clearfix"/>
+												<div class="col-md-12 dsui-product-transfer-checkbox1">
+													<div class="radio">
+														<label>
+															<input type="radio" data-ng-required="true" name="transferShipment" />
+															Transfer to my Branch to Ship to Customer
+														</label>
+													</div>
+											  </div>
+												<p class="clearfix "/>
+												<div class="col-md-12 dsui-product-transfer-checkbox2">
+													<div class="radio">
+														<label>
+															<input type="radio" data-ng-required="true" name="transferShipment" />
+															Ship to Customer from Selected Branch
+														</label>
+													</div>
+											  </div>
+												<p class="clearfix"/>
+												<p class="clearfix"/>	
+												<div class="col-md-12">
+													<div class="pull-left  col-md-6" style="padding-left:0px;">
+														<button type="button" class="btn btn-danger col-md-12" data-dismiss="modal">Cancel</button>
+													</div>
+													<div class="pull-left  col-md-6" style="padding-left:0px;">
+					                	<button type="submit" class="btn btn-info col-md-12"  data-toggle="modal">Select</button>
+													</div>
+												</div>							
+												<p class="clearfix"/></p>
+												<p class="clearfix"/></p>
+											</div>
+										</form>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+
+				

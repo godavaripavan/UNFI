@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:sap-com:document:sap:soap:functions:mc-style">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:ZGetListInvoice>
+         <IDate>2014-07-20</IDate>
+      </urn:ZGetListInvoice>
+   </soapenv:Body>
+</soapenv:Envelope>

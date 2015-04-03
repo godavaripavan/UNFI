@@ -1,0 +1,119 @@
+[
+  {
+    "prNumber": 3059003211,
+    "materialId": "22001170",
+    "materialName": "Onion Strip 1/4in Dice",
+    "materialGroup": "R31",
+    "prReleaseDate": "10/22/2013",
+    "vendorId": 101,
+    "quantity": 28640,
+    "availableQty": 16500,
+    "totalPrice": 548654,
+    "deliveryDate": "11/08/2013",
+    "plant": 5004,
+    "storageLocation": "0001",
+    "daysOfInventory": 12,
+    "uom": "LB",
+    "unitPrice": 19.15,
+    "vendors": [
+      {
+        "vendorId": 101,
+        "vendorName": "BoardMan Foods Inc"
+      },
+      {
+        "vendorId": 102,
+        "vendorName": "DairiConcepts LP"
+      },
+      {
+        "vendorId": 103,
+        "vendorName": "Ventura Coastal LLC"
+      },
+      {
+        "vendorId": 104,
+        "vendorName": "A Zeragas Sons Inc"
+      },
+      {
+        "vendorId": 104,
+        "vendorName": "Young Peacon Co"
+      }
+    ]
+  },
+  {
+    "prNumber": 3059003202,
+    "materialId": "22001172",
+    "materialName": "Onion Minced Dehydrated 50lb",
+    "materialGroup": "R31",
+    "prReleaseDate": "10/22/2013",
+    "vendorId": 101,
+    "quantity": 83450,
+    "availableQty": -9520,
+    "totalPrice": 578640,
+    "deliveryDate": "11/08/2013",
+    "plant": 5959,
+    "storageLocation": "0001",
+    "daysOfInventory": 21,
+    "uom": "LB",
+    "unitPrice": 6.95,
+    "vendors": [
+      {
+        "vendorId": 101,
+        "vendorName": "BoardMan Foods Inc"
+      },
+      {
+        "vendorId": 102,
+        "vendorName": "DairiConcepts LP"
+      },
+      {
+        "vendorId": 103,
+        "vendorName": "Ventura Coastal LLC"
+      },
+      {
+        "vendorId": 104,
+        "vendorName": "A Zeragas Sons Inc"
+      },
+      {
+        "vendorId": 104,
+        "vendorName": "Young Peacon Co"
+      }
+    ]
+  },
+  {
+    "prNumber": 3059003194,
+    "materialId": "22001169",
+    "materialName": "Onion Chopped 1/8-3/8in Dhyd",
+    "materialGroup": "R31",
+    "prReleaseDate": "10/22/2013",
+    "vendorId": 103,
+    "quantity": 19400,
+    "availableQty": 8590,
+    "totalPrice": 501320,
+    "deliveryDate": "11/08/2013",
+    "plant": 5004,
+    "storageLocation": "0001",
+    "daysOfInventory": 8,
+    "uom": "LB",
+    "unitPrice": 25.84,
+    "vendors": [
+      {
+        "vendorId": 101,
+        "vendorName": "BoardMan Foods Inc"
+      },
+      {
+        "vendorId": 102,
+        "vendorName": "DairiConcepts LP"
+      },
+      {
+        "vendorId": 103,
+        "vendorName": "Ventura Coastal LLC"
+      },
+      {
+        "vendorId": 104,
+        "vendorName": "A Zeragas Sons Inc"
+      },
+      {
+        "vendorId": 104,
+        "vendorName": "Young Peacon Co"
+      }
+    ]
+  }
+]

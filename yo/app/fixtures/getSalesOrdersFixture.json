@@ -1,0 +1,78 @@
+[
+	{
+		"salesOrderId": 10014568,
+		"truckLoad": "38380lbs.58 pallets",
+		"ship-to-Party/Customer": 100893457,
+		"ship-to-Address": "133 Jackson St. San Francisco, CA 94111",
+		"deliveryLineItems": [
+			{
+				"materialId": 80073411,
+				"materialGroup": "R31",
+				"plant": 9004,
+				"storageLocation": "Denver,CO",
+				"storageLocationId": 1400,
+				"SalesOrderId": 3839460001,
+				"quantity": 2535,
+				"DeliverQty": 130,
+				"pickQty": 130,
+				"uom": "LB",
+				"weight": 8000,
+				"totalPrice": 3535,
+				"deliveryDate": "11/08/2013"
+			},
+			{
+				"materialId": 80345411,
+				"materialGroup": "R31",
+				"plant": 9004,
+				"storageLocation": "Denver,CO",
+				"storageLocationId": 1400,
+				"SalesOrderId": 3839460001,
+				"quantity": 2535,
+				"DeliverQty": 130,
+				"pickQty": 130,
+				"uom": "LB",
+				"weight": 8000,
+				"totalPrice": 3535,
+				"deliveryDate": "1/08/2013"
+			}
+		]
+	},
+	{
+		"salesOrderId": 104759432,
+		"truckLoad": "38380lbs.58 pallets",
+		"ship-to-Party/Customer": 1024357457,
+		"ship-to-Address": "133 Jackson St. San Francisco, CA 94111",
+		"deliveryLineItems": [
+			{
+				"materialId": 80683411,
+				"materialGroup": "R31",
+				"plant": 8004,
+				"storageLocation": "Denver,CO",
+				"storageLocationId": 2400,
+				"SalesOrderId": 3839460001,
+				"quantity": 1535,
+				"DeliverQty": 120,
+				"pickQty": 120,
+				"uom": "LB",
+				"weight": 9000,
+				"totalPrice": 3535,
+				"deliveryDate": "11/08/2013"
+			},
+			{
+				"materialId": 80345411,
+				"materialGroup": "R31",
+				"plant": 9004,
+				"storageLocation": "Denver,CO",
+				"storageLocationId": 1400,
+				"SalesOrderId": 3839460001,
+				"quantity": 2535,
+				"DeliverQty": 130,
+				"pickQty": 130,
+				"uom": "LB",
+				"weight": 8000,
+				"totalPrice": 3535,
+				"deliveryDate": "10/08/2013"
+			}
+		]
+	}
+]

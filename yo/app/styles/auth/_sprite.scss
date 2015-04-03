@@ -1,0 +1,45 @@
+[class^="dsui-icon-"],
+[class*=" dsui-icon-"] {
+	/*background: url("../images/sprite/icons.png") no-repeat;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-top: 1px;
+	line-height: 14px;
+	vertical-align: middle;
+	background-position: 14px 14px;*/
+	background: url("../images/sprite/icons.png") no-repeat;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-top: -15px;
+	line-height: 14px;
+	vertical-align: middle;
+	background-position: 14px 14px;
+	margin-left: 2.4em;
+	font-size: 0.8em;
+	background-color: #00A1DE;
+	color: #fff;
+}
+.dsui{
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+	.dsui{
+	}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 992px) {
+	.dsui{
+	}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.dsui{
+	}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.dsui{
+	}
+}

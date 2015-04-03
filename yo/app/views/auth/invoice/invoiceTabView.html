@@ -1,0 +1,67 @@
+<div class="dsui-pr" data-ng-repeat="items in invoice.detailsData" >
+	<div class="row dsui-proc-head">
+		<div class="col-xs-5 pull-left dsui-head-left"><span data-ng-show="items.materialNumber"></span><span data-ng-bind="items.materialNumber"></span><span><span data-ng-show="items.materialName"> - </span><span data-ng-bind="items.materialName"></span><span data-ng-show="items.materialName"></span></span></div>
+		<div class="col-xs-7">
+			<div class="pull-right">
+				<button type="button" class="btn btn-success">Details</button>
+				<button type="button" class="btn btn-default">Notes</button>
+			</div>
+		</div>
+	</div>
+	<div class="well dsui-proc-body">
+		<p class="clearfix"></p>
+		<div class="row dsui-proc-body-ul">
+			<div class="col-sm-5 row">
+				<div class="col-sm-6">
+					<ul>
+						<li>
+							<span>Material Group:</span> 
+							<span data-ng-bind="items.materialGroup"> </span>
+						</li>
+						<li>
+							<span>Delivery :</span> 
+							<span data-ng-bind="items.deliveryId1" > </span>
+						</li>
+						<li>
+							<span>Sales Order :</span> 
+							<span data-ng-bind="items.salesOrder1" ></span>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-6 dsui-proc-no-padding">
+					<ul>
+						<li >
+							<span>Plant :</span> 
+							<span data-ng-bind="items.plantId" ></span>
+						</li>
+						<li >
+							<span>Branch: </span>
+							<span data-ng-bind="items.branchId" ></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-7 row">
+				<ul>
+					<li class="col-sm-2 dsui-proc-body-right">
+						<span>Qty.</span><br/>
+						<span  data-ng-bind="items.quantity"></span>
+					</li>
+					<li class="col-sm-2 dsui-proc-body-right">
+						<span>UoM</span><br/>
+						<span  data-ng-bind="items.uomId"></span>
+					</li>
+					<li class="col-sm-2 dsui-proc-body-right">
+						<span>Weight</span><br/>
+						<span  data-ng-bind="items.weight | limitToTwo: '':''"></span><span> lbs.</span>
+					</li>
+					<li class="col-sm-2 dsui-proc-body-right">
+						<span>Total Price</span><br/>
+						<span class="text-right">$<span  data-ng-bind="items.totalPrice | limitToTwo: '':''"></span></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+

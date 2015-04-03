@@ -1,0 +1,34 @@
+<div class="dsui-procurement dsui-bg-white clearfix">
+	<p class="clearfix"/>
+	<div class="clearfix">
+		<div class="col-sm-6 text-left">
+			<span data-ng-show="!fnIsDetailPage() && procurement.page == 'po'"><span>Order Type</span>
+      <select class="dsui-results-perpage" data-ng-model="procurement.po.selectedOrderType" data-ng-options="order as order.type for order in procurement.po.orderTypes" data-ng-change="fnOrdersChange(procurement.po.selectedOrderType);">
+       </select></span>
+		</div>
+		<div class="col-sm-6">
+			<div class="pull-right">
+				<span class="dsui-toogle-selection" data-ng-show="!fnIsDetailPage()">
+					<span class="dsui-proc-pr" data-ng-class="procurement.page == 'pr' && 'dsui-proc-txt-hilight' || 'dsui-proc-txt-non-hilight' ">PR</span>
+					<span class="toggle-bg">
+						<input type="radio" data-ng-click="fnTogglePrOrPo('pr');" name="toggle" value="pr" data-ng-model="procurement.page"><!-- value="off" -->
+						<input type="radio" data-ng-click="fnTogglePrOrPo('po');" name="toggle" value="po" data-ng-model="procurement.page"> <!-- value="on" -->
+						<span class="switch"></span>
+					</span>
+					<span class="dsui-proc-po" data-ng-class="procurement.page == 'po' && 'dsui-proc-txt-hilight' || 'dsui-proc-txt-non-hilight' ">PO</span>
+				</span>
+				<button type="button" class="btn btn-success" data-ng-click="fnConvertToPO()" data-ng-show="!fnIsDetailPage() && procurement.page == 'pr'">Convert to PO</button>
+				<button type="button" class="btn btn-warning" data-ng-show="!fnIsDetailPage() && procurement.page == 'po'">Email/Print</button>
+				<button type="button" class="btn btn-success" data-ng-show="!fnIsDetailPage() && procurement.page == 'po'">New PO</button>
+			</div>
+		</div>
+	</div>
+	<div class="dsui-procurement-pr" data-ng-controller="purchaseRequestController" data-ng-show="procurement.page == 'pr'">
+		<div data-ng-include="procurement.pages.prList" class="clearfix" data-ng-hide="fnIsDetailView()"></div>
+		<div data-ng-include="procurement.pages.prDetail" class="clearfix" data-ng-show="fnIsDetailView()"></div>
+	</div>
+	<div class="dsui-procurement-po" data-ng-controller="purchaseOrderController" data-ng-show="procurement.page == 'po'">
+		<div data-ng-include="procurement.pages.poList" class="clearfix" data-ng-hide="fnIsDetailView()"></div>
+		<div data-ng-include="procurement.pages.poDetail" class="clearfix" data-ng-show="fnIsDetailView()"></div>
+	</div>
+</div>

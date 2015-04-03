@@ -1,0 +1,59 @@
+<div class="well dsui-poc-well dsui-po-list">
+		 <div class="clearfix col-sm-12 ">
+						<div class="input-append dsui-table-head">
+								<div class="col-sm-10 dsui-color-white"><span class="dsui-table-head0">Purchase Orders 1- <span data-ng-bind="po.displayPOs.length<selectedPages.pages && po.displayPOs.length || selectedPages.pages"></span> of <span data-ng-bind="po.completePOs.length"></span></span></div>
+								<div class="col-sm-2 input-group dsui-search-div"><span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span><input type="text" data-ng-model="po.searchText"  class="form-control pull-right  search-query dsui-search"></div>
+						</div>
+						<table class="dsui-pr-grid table table-striped table-condensed table-hover">
+								<thead data-ng-init="predicate = 'poNumber'; reverse=true;">
+										<tr>
+												<th class="poNumber dsui-pointer-cursor" data-ng-click="predicate = 'poNumber'; reverse=!reverse">PO&nbsp;<a href="javascript:void(0);"><i class="{{ (reverse && predicate == 'poNumber') && 'fa fa-sort-asc' || 'fa fa-sort-desc'}}"></i></a>
+												</th>
+												<th class="ordertype">OrderType&nbsp;</th>
+												 <th class="vendorId dsui-pointer-cursor" data-ng-click="predicate = 'vendorId'; reverse=!reverse">Vendor&nbsp;<a href="javascript:void(0);"><i class="{{ (reverse && predicate == 'vendorId') && 'fa fa-sort-asc' || 'fa fa-sort-desc'}}"></i></a>
+												 </th>
+												<th class="status dsui-pointer-cursor" data-ng-click="predicate = 'status'; reverse=!reverse">Status&nbsp;<a href="javascript:void(0);"><i class="{{ (reverse && predicate == 'status') && 'fa fa-sort-asc' || 'fa fa-sort-desc'}}"></i></a>
+												</th>                       
+												<th class="supplierAck dsui-pointer-cursor" data-ng-click="predicate = 'supplierAck'; reverse=!reverse">Supplier Ack &nbsp;<a href="javascript:void(0);"><i class="{{ (reverse && predicate == 'supplierAck') && 'fa fa-sort-asc' || 'fa fa-sort-desc'}}"></i></a>
+												</th>
+												<th class="poDate dsui-pointer-cursor"  data-ng-click="predicate = 'poDate'; reverse=!reverse">PO Date&nbsp;<a href="javascript:void(0);"><i class="{{ (reverse && predicate == 'poDate') && 'fa fa-sort-asc' || 'fa fa-sort-desc'}}"></i></a>
+												</th>
+												<th class="lineItems dsui-pointer-cursor"  data-ng-click="predicate = 'lineItems'; reverse=!reverse">Line Items&nbsp;<a href="javascript:void(0);"><i class="{{ (reverse && predicate == 'lineItems') && 'fa fa-sort-asc' || 'fa fa-sort-desc'}}"></i></a>
+												</th>
+												<th class="quantity dsui-pointer-cursor" data-ng-click="predicate = 'quantity'; reverse=!reverse">Quantity&nbsp;<a href="javascript:void(0);"><i class="{{ (reverse && predicate == 'quantity') && 'fa fa-sort-asc' || 'fa fa-sort-desc'}}"></i></a>
+												</th>
+												<th class="totalPrice dsui-pointer-cursor" data-ng-click="predicate = 'totalPrice'; reverse=!reverse" >Total Price&nbsp;<a href="javascript:void(0);"><i class="{{ (reverse && predicate == 'totalPrice') && 'fa fa-sort-asc' || 'fa fa-sort-desc'}}"></i></a>
+												</th>
+										</tr>
+								</thead>
+								<tfoot>
+										<td colspan="9">
+											 <span class="dsui-table-head0">Purchase Orders 1- <span data-ng-bind="po.displayPOs.length<selectedPages.pages && po.displayPOs.length || selectedPages.pages"></span> of <span data-ng-bind="po.completePOs.length"></span></span>
+												<div class="pull-right dsui-results-perpage-div">
+														<span>Results per page</span>
+														 <select class="dsui-results-perpage" data-ng-model="selectedPages" data-ng-options="page as page.pages for page in pageResults" data-ng-change="fnRecordsDisplayPerPage(selectedPages);">
+														 </select>
+												</div>
+										</td>
+								</tfoot>
+								<tbody>
+										<tr data-ng-repeat="item in po.displayPOs | orderBy:predicate:reverse">
+												<td><span class="dsui-pointer-cursor" data-ng-bind="item.poNumber" data-ng-click="fnDetailView(item);"></span></td>
+												<td>
+														<img data-ng-show="item.orderType == 'MB'" class="img-responsive" src="images/assets/stock.png"/>
+														<img data-ng-show="item.orderType == 'UD'" class="img-responsive" src="images/assets/crossdock.png"/>
+														<img data-ng-show="item.orderType == 'NB'" class="img-responsive" src="images/assets/buyout.png"/>
+												</td>
+												<td><span data-ng-bind="item.vendorName"></span></td>
+												<td><i class="fa fa-circle" data-ng-class="item.status == 'Open' && 'dsui-green' || (item.status == 'Blocked' && 'dsui-red' || 'dsui-yellow') "></i> <span data-ng-bind="item.status"></span></td>                        
+												<td><i class="fa fa-circle" data-ng-class="item.supplierAck == 'Fully Confirmed' && 'dsui-green' || (item.supplierAck == 'Not Confirmed' && 'dsui-red' || 'dsui-yellow') "></i> <span data-ng-bind="item.supplierAck"></span></td>
+												<td><span data-ng-bind="item.poDate"></span></td>
+												<td><span data-ng-bind="item.lineItems"></span></td>                       
+												<td><span data-ng-bind="fnGetPOTotalQuantity(item)"></span></td>
+												<td><span data-ng-bind="fnGetPOTotalPrice(item)"></span></td>
+										</tr>
+								</tbody>
+						</table>
+				</div>
+	</div>
+		

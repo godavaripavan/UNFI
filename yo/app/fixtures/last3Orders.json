@@ -1,0 +1,46 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/last_sales_orders.xsodata/LastSalesOrders('65004106035504981')",
+				"type": "sap.hana.mrcdemocontent.LastSalesOrdersType"
+			},
+			"GENERATED_ID": "65004106035504981",
+			"VBELN": null,
+			"ERDAT": "20140121",
+			"KUNNR": "0000100000",
+			"KWMENG": null,
+			"NETWR": null,
+			"TOTAL_COST": null,
+			"PROFIT_PER": null
+		},
+		{
+			"__metadata": {
+				"uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/last_sales_orders.xsodata/LastSalesOrders('65004106035504982')",
+				"type": "sap.hana.mrcdemocontent.LastSalesOrdersType"
+			},
+			"GENERATED_ID": "65004106035504982",
+			"VBELN": "0000000085",
+			"ERDAT": "20140121",
+			"KUNNR": "0000100000",
+			"KWMENG": "2",
+			"NETWR": "200",
+			"TOTAL_COST": "7.14",
+			"PROFIT_PER": "2701"
+		},
+		{
+			"__metadata": {
+				"uri": "http://10.118.9.70:8000/WD7/MRC/MRC/services/last_sales_orders.xsodata/LastSalesOrders('65004106035504983')",
+				"type": "sap.hana.mrcdemocontent.LastSalesOrdersType"
+			},
+			"GENERATED_ID": "65004106035504983",
+			"VBELN": "0000000086",
+			"ERDAT": "20140621",
+			"KUNNR": "0000100016",
+			"KWMENG": "55",
+			"NETWR": "0",
+			"TOTAL_COST": "790.9",
+			"PROFIT_PER": "-100"
+		}]
+	}
+}

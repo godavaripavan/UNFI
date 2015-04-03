@@ -1,0 +1,36 @@
+.dsui-list-header{
+	.dsui-header-left{
+		.dsui-search-bar{
+			padding: 1em;
+			.dsui-customer-selection{
+				background-color: #fff;
+				padding: 0px;
+				.dsui-customer-selectbox{
+					border: none;
+				}
+			}
+			
+		}
+	}
+	.dsui-header-right{
+		.dsui-list-buttons{
+			padding: 1em;
+		}
+	}
+}
+.dsui-list-body{
+	.dsui-list-table{
+		.dsui-list-table-count{
+			font-size: 1.3em;
+		}
+		.dsui-list-create-table-body{
+			.dsui-list-create-table-head{
+				tr{
+					th{
+						font-size: 0.8em;
+					}
+				}
+			}
+		}
+	}
+}

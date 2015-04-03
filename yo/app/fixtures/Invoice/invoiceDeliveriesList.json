@@ -1,0 +1,65 @@
+[{
+	
+	"deliveryOrderId": 10014568,
+	"bill-to-Party/Customer": 100893457,
+	"bill-to-Address": "133 Jackson St. San Francisco, CA 94111",
+	"paymentTerms": "N/A",
+	"totalInvoiceValue": 10890,
+	"invoiceLineItems": [{
+		"materialId": 80073411,
+		"materialGroup": "R31",
+		"plant": 9004,
+		"deliveryId": 3059003211,
+		"salesOrderId": 3839460001,
+		"branch": 10081,
+		"quantity": 130,
+		"pickQuantity": 130,
+		"uom": "LB",
+		"weight": 8000,
+		"totalPrice": 3535
+	}, {
+		"materialId": 34567411,
+		"materialGroup": "R31",
+		"plant": 5067,
+		"deliveryId": 3059003211,
+		"salesOrderId": 3839460001,
+		"branch": 10081,
+		"quantity": 120,
+		"pickQuantity": 120,
+		"uom": "LB",
+		"weight": 9000,
+		"totalPrice": 4535
+	}]
+
+}, {
+	"deliveryOrderId": 34556678,
+	"bill-to-Party/Customer": 100893457,
+	"bill-to-Address": "133 Jackson St. San Francisco, CA 94111",
+	"paymentTerms": "N/A",
+	"totalInvoiceValue": 10890,
+	"invoiceLineItems": [{
+		"materialId": 80073411,
+		"materialGroup": "R31",
+		"plant": 9004,
+		"deliveryId": 3059003211,
+		"salesOrderId": 3839460001,
+		"branch": 10081,
+		"quantity": 130,
+		"pickQuantity": 130,
+		"uom": "LB",
+		"weight": 8000,
+		"totalPrice": 3535
+	}, {
+		"materialId": 80073234,
+		"materialGroup": "R31",
+		"plant": 5067,
+		"deliveryId": 3059003211,
+		"salesOrderId": 3839460001,
+		"branch": 10081,
+		"quantity": 120,
+		"pickQuantity": 120,
+		"uom": "LB",
+		"weight": 9000,
+		"totalPrice": 4535
+	}]
+}]

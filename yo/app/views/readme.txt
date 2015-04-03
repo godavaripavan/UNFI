@@ -1,0 +1,1 @@
+all the partials are included in this folder

@@ -1,0 +1,121 @@
+<div class="dsui-pr" data-ng-repeat="item in delivery.detailavail">
+	
+	<div class="row dsui-proc-head">
+		<div class="col-xs-5 pull-left dsui-head-left"><span ></span><span>&nbsp;</span><span><span data-ng-show="item.materialId" data-ng-bind="item.materialId |truncateZeroes:'':''"></span> - </span><span data-ng-bind="item.materialDescription"></span><span data-ng-show="!(item.materialDescription)">-------</span></div>
+		<div class="col-xs-7">
+			<div class="pull-right">
+				<button type="button" class="btn btn-success">Details</button>
+				<button type="button" class="btn btn-default">Notes</button>
+				<button type="button" class="btn btn-warning" data-ng-click="fnOpenHeatCodeModal($index)">Heat Code</button>
+			</div>
+		</div>
+	</div>
+	<div class="well dsui-proc-body">
+		<div><a class="pull-right" href="javascript:void(0)" data-ng-click="fnRemoveItems($index)">Remove Line Item</a></div>
+		<p class="clearfix"></p>
+		<div class="row dsui-proc-body-ul">
+			<div class="col-sm-5 row">
+				<div class="col-sm-6">
+					<ul>
+						<li>
+							<span>Material Group:</span> 
+							<span data-ng-bind="item.materialGroup"></span>
+						</li>
+						<li>
+							<span>Sales Order :</span> 
+							<span data-ng-bind="item.salesorderId|truncateZeroes:'':''"></span>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-6 dsui-proc-no-padding">
+					<ul>
+						<li >
+							<span>Plant :</span> 
+							<span data-ng-bind="item.plantId"></span>
+						</li>
+						<li >
+							<span>Storage Location:</span>
+							
+<!-- 								<input data-ng-model="item.storageLocation" style="width:50px;" data-ng-show="!(delivery.editModeDisabled)" value="1040"/> -->
+								<span data-ng-bind="item.storageLocation && '1040' || '1040 '"></span>
+							
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-7 row">
+				<ul>
+					<li class="col-sm-2 dsui-proc-body-right">
+						<span>Order Qty.</span><br/>
+						<span >
+							<input data-ng-model="item.quantity" style="width:50px;" data-ng-show="!(delivery.editModeDisabled)" />
+							<span data-ng-bind="item.quantity" data-ng-show="delivery.editModeDisabled"></span>
+						</span>
+					</li>
+					<li class="col-sm-2 dsui-proc-body-right">
+						<span>Pick Qty.</span><br/>
+						<span >
+							<input data-ng-model="item.quantity" style="width:50px;" data-ng-show="!(delivery.editModeDisabled)" />
+							<span data-ng-bind="item.quantity" data-ng-show="delivery.editModeDisabled"></span>
+						</span>
+					</li>
+					<li class="col-sm-2 dsui-proc-body-right">
+						<span>UoM</span><br/>
+						<span data-ng-bind="item.uomId"></span>
+					</li>
+					<li class="col-sm-2 dsui-proc-body-right">
+						<span>Weight</span><br/>
+						<span data-ng-bind="item.weight | limitToTwo: '':''"></span><span data-ng-show="item.weight"> lbs.</span>
+					</li>
+					<li class="col-sm-2 dsui-proc-body-right">
+						<span>Total Price</span><br/>
+						<span data-ng-bind="item.totalPrice | limitToTwo: '':''"></span><span> USD</span>
+					</li>
+					<li class="col-sm-2 dsui-proc-body-right">
+						<span>Delivery Date</span><br/>
+						<span class='input-group dsui-datefield' style="width:80px;" data-ng-show="!(delivery.editModeDisabled)">
+              <input type='text' class="form-control" datepicker-popup="{{format}}" is-open="openedStart" data-ng-model="item.deliveryDate" min-date="minDate" max-date="'2015-06-22'" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" data-ng-change="fnGetEndDate(item.deliveryDate)" />
+              <span class="input-group-btn">
+              	<button type="button" class="btn btn-default dsui-zero-padding" ng-click="openStartDate($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+              </span> 
+           	</span>
+           	<span data-ng-bind="fnGetEndDate(item.deliveryDate);" data-ng-show="delivery.editModeDisabled"></span>
+						<!-- <input type='text' class="form-control" datepicker-popup="{{format}}" is-open="openedStart" ng-model="dt" min-date="minDate" max-date="'2015-06-22'" date-disabled="disabled(date, mode)" close-text="Close" style="width:100px;" /> -->
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal"   backdrop= "static" id="deliveryHeatCode"  tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
+	  <div class="modal-dialog" >
+	    <div class="modal-content">
+	    	
+	    	<!-- Modal Box Header -->
+	      <div class="modal-header" style="text-align:center;background:#00A1DE;color:#fff">
+					<span class="modal-title" id="createUserModalLabel">
+					 	Enter Heat Code
+					</span>
+					<span data-dismiss="modal" class="pull-right dsui-pointer-cursor">Cancel</span>
+	    	</div>
+	    	<!-- End of Modal Box Header -->
+	    	<!-- Modal Box Content -->
+	    	<div class="modal-body dsui-modle-font">
+	    		<div class="row ">
+	    			<div class="col-md-12">
+	    				<div style="margin-bottom:15px;"><span style="color:rgb(34, 184, 255);">Material : </span><span style="color: lightgrey;"></span>
+	    					<span class="text-muted" data-ng-bind="popUpMaterialId"></span>
+	    				</div>
+	    				<div style="margin-bottom:15px;"><input class="form-control" placeholder="Enter heat code here"/></div>
+	    				<div style="margin-bottom:15px;"><input class="form-control" placeholder="Enter heat code here"/></div>
+	    				<div style="margin-bottom:15px;"><input class="form-control" placeholder="Enter heat code here"/></div>
+	    				<div style="margin-bottom:15px;"><input class="form-control" placeholder="Enter heat code here"/></div>
+							<button data-dismiss="modal" class="pull-right btn btn-success">Apply</button>
+	    			</div>
+	    		</div>
+				</div>
+	    	<!-- End of Modal Box Content -->
+			</div>
+		</div>
+	</div>
+

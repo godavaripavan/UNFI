@@ -1,0 +1,50 @@
+<div data-ng-repeat="prItem in prDetailsObj" class="dsui-pr">
+	<div class="row dsui-proc-head">
+		<div class="col-xs-5 pull-left dsui-head-left" data-ng-bind="prItem.title"></div>
+		<div class="col-xs-7">
+			<div class="pull-right">
+				<button type="button" class="btn btn-success">Details</button>
+				<button type="button" class="btn btn-default">Conditions</button>
+				<button type="button" class="btn btn-warning">Notes</button>
+			</div>
+		</div>
+	</div>
+	<div class="well dsui-proc-body">
+		<div><a class="pull-right" href="javascript:void(0)">Remove Line Item</a></div>
+		<p class="clearfix"></p>
+		<div class="row dsui-proc-body-ul">
+			<div class="col-sm-5 row">
+				<div class="col-sm-6">
+					<ul>
+						<li data-ng-repeat="firstLi in prItem.li1">
+							<span>{{firstLi.key}}</span> : 
+							<span>{{firstLi.value}}</span>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-6 dsui-proc-no-padding">
+					<ul>
+						<li data-ng-repeat="secondLi in prItem.li2" data-ng-show="secondLi.key != ''">
+							<span>{{secondLi.key}}</span> : 
+							<span>{{secondLi.value}}</span>
+						</li>
+						<li data-ng-repeat="secondLi1 in prItem.li2" data-ng-show="secondLi1.key == ''">
+							<span><input type="checkbox"/></span> <span>{{secondLi1.value}}</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-7 row">
+				<ul>
+					<li class="col-sm-2 dsui-proc-body-right" data-ng-repeat="thirdLi in prItem.li3">
+						<span>{{thirdLi.key}}</span><br/>
+						<span data-ng-show="value"><i class="fa fa-circle dsui-green"></i></span>
+						<span data-ng-show="thirdLi.field == ''">{{thirdLi.value}}</span>
+						<span data-ng-show="thirdLi.field == 'textbox'"><input type="text" data-ng-model="thirdLi.value" /></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+

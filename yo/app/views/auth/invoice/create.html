@@ -1,0 +1,63 @@
+<div class="dsui-invoice-create col-sm-12 dsui-zero-padding">
+	<div class="col-sm-4 dsui-zero-padding dsui-create-detail-left">
+		<ul class="nav nav-pills nav-justified dsui-nav-list-parent col-sm-12 dsui-zero-padding">
+		  <li class="active"><a href="javascript:void(0);">Delivery </a></li>
+        <li><a href="javascript:void(0);">Branch</a></li>
+        <li><a href="javascript:void(0);">Customer </a></li>
+		</ul>
+		<div class="input-group col-sm-12 dsui-zero-padding dsui-serach">
+      <input type="text" ng-model="invoice.search.deliveryId" class="form-control dsui-zero-border-radius dsui-search-input" placeholder="Type Search terms here..." name="query" value="">
+        <div class="input-group-btn">
+	      <button type="submit" class="btn dsui-serach-icon-bg dsui-zero-border-radius" data-ng-click="getDeliveries()"><span class="glyphicon glyphicon-search"></span></button>
+	    </div>
+  	</div>
+  	<div class="col-sm-12 dsui-create-sales-order-number  dsui-pointer-cursor" data-ng-repeat="delivery in invoice.deliveries | filter:invoice.search" data-ng-click="fnShowDeliveryDetails(delivery)">
+  		<span >Delivery: <span data-ng-bind="delivery.deliveryId1"></span></span><br/>
+  	</div>
+	</div>
+	<div class="col-sm-8 dsui-create-detail-right" data-ng-show="invoice.deliverySelected">
+		<div class="dsui-create-table">
+			<div class="dsui-create-table-count col-sm-12 dsui-zero-padding">
+				<div class="col-sm-6">
+					<span class="dsui-list-order-page-count"><span>Delivery </span><span data-ng-bind="invoice.invoiceLineItems.otherDetails.deliveryId1"></span></span><br/>
+				</div>
+				<div class="col-sm-6 text-right">
+					<button type="button" class="btn dsui-create-invoice" data-ng-click="fnOpenDetailsDeliveryPage(invoice.invoiceLineItems);">Create Invoice</button>
+				</div>
+			</div>
+			<div class="dsui-invoice-detail-body" >
+				<table class="table">
+					<thead class="dsui-invoice-detail-table-head">
+						<tr class="test">
+							<th class="col-sm-1"></th>
+							<th class="col-sm-2 text-center">Material </th>
+							<th class="col-sm-2 text-center">Material Description </th>
+							<th class="col-sm-2 text-center">Quantity</th>
+							<th class="col-sm-7 text-left">Branch</th>				
+						</tr>
+					</thead>
+					<!-- <tfoot>
+              <td colspan="9">
+                  <span class="dsui-table-head0 tdsui-table-bottom">1- {{selectedPages.pages}} of {{items.length}} Purchase Requisitions</span>
+                  <div class="pull-right dsui-results-perpage-div">
+                      <span>Results per page</span>
+                       <select class="dsui-results-perpage" ng-model="selectedPages" ng-options="page as page.pages for page in pageResults" data-ng-change="fnRecordsDisplayPerPage(selectedPages);">
+                       </select>
+                  </div>
+              </td>
+          </tfoot> -->
+          
+					<tbody class="dsui-invoice-detail-table-body">
+						<tr  data-ng-repeat="items in invoice.invoiceLineItems ">
+							<td class="col-sm-1 text-right"><input type="checkbox" data-ng-model="items.isChecked"></td>
+							<td class="col-sm-1 text-center"><span data-ng-bind ="items.materialNumber"></span></td>
+							<td class="col-sm-5 text-center"><span data-ng-bind ="items.materialName"></span></td>
+							<td class="col-sm-2 text-center"><span data-ng-bind ="items.quantity"></span></td>
+							<td class="col-sm-3 text-left"><span data-ng-bind ="items.branchId"></span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>

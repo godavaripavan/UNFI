@@ -1,0 +1,78 @@
+.dsui-create-detail-left{
+	border-right: 1px solid #E8E8E8;
+	.dsui-nav-list-parent{
+		li{
+			font-size: 0.9em;
+			background-color: #F6F6F6;
+			color:#62C5EA;
+			border-left: 1px solid #E5E5E5;
+			.active{
+				background-color: #00A1DE;
+				color: #fff;
+			}
+			a{
+				padding: 10px 5px;
+				border-radius: 0px;
+			}
+		}
+	}
+	.dsui-serach{
+		height: 50px;
+		.dsui-search-input{
+			background-color: #EAEAEA;
+			height: 50px;
+		}
+		.dsui-serach-icon-bg{
+			background-color: #00A1DE;
+			color: #fff;
+			line-height: 36px;
+		}
+		
+	}
+	.dsui-create-sales-order-number{
+		border: 1px solid #DFE3E5;
+		padding: 0.8em;
+		.dsui-deliveryid-Txt{
+			color: #9A9A9A;
+		}
+		.dsui-placeholder-Txt{
+			color: #D2D2D3;
+		}
+	}
+	.dsui-active{
+		background-color: #E6F5FB;
+	}
+}
+.dsui-create-detail-right{
+	padding-top:20px;
+	.dsui-create-table{
+		.dsui-invoice-detail-body{
+			.dsui-invoice-detail-table-head{
+				.test{
+					th{
+						border-bottom: 0px !important;
+					}
+				}
+			}
+			.dsui-invoice-detail-table-body{
+				margin: 1px solid #ccc !important;
+
+			}
+		}
+		.dsui-create-table-count{
+			padding: 1em;
+			.dsui-list-order-page-count{
+				font-size: 1.4em;
+			}
+			.dsui-create-invoice{
+				background-color: #2ECC71;
+				color: #fff;
+			}
+			.dsui-delivery-id{
+				font-size: 1em;
+				color: #D2D2D3; 
+			}
+		}
+	}
+}
+

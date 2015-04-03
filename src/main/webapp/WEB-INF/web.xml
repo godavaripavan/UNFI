@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                             http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee" id="WebApp_1401647438398">
+
+  <display-name>MRC</display-name>
+
+  <!-- ============================================================== -->
+  <!-- UI5 resource servlet used to handle application resources      -->
+  <!-- ============================================================== -->
+
+ 
+  <!-- BEGIN: DEV MODE -->
+  <!-- DEV MODE switched off by default and can be switched on during development -->
+  <!-- but has to be switched off for productive use on a Java server! -->
+  <context-param>
+    <param-name>com.sap.ui5.resource.DEV_MODE</param-name>
+    <param-value>true</param-value>
+  </context-param>
+  <!-- END: DEV MODE -->
+
+
+  <!-- ============================================================== -->
+  <!-- Cache Control Filter to prevent caching of any resource        -->
+  <!-- ============================================================== -->
+
+
+  <!-- ============================================================== -->
+  <!-- UI5 proxy servlet                                              -->
+  <!-- ============================================================== -->
+
+  <servlet id="Servlet_1401647438420">
+    <servlet-name>WDSimpleProxyServlet</servlet-name>
+    <servlet-class>com.sap.ui5.proxy.SimpleProxyServlet</servlet-class>
+    <init-param>
+        <param-name>com.sap.ui5.proxy.REMOTE_LOCATION</param-name>
+    <param-value>http://10.118.9.70:8000</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping id="ServletMapping_1401647438404">
+    <servlet-name>WDSimpleProxyServlet</servlet-name>
+    <url-pattern>/wdproxy/*</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet id="Servlet_140164743841">
+    <servlet-name>SAPSimpleProxyServlet</servlet-name>
+    <servlet-class>com.sap.ui5.proxy.SimpleProxyServlet</servlet-class>
+    <init-param>
+        <param-name>com.sap.ui5.proxy.REMOTE_LOCATION</param-name>
+    <param-value>http://ussltcsnw1535.solutions.glbsnet.com:8000</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping id="ServletMapping_1401647438405">
+    <servlet-name>SAPSimpleProxyServlet</servlet-name>
+    <url-pattern>/sapproxy/*</url-pattern>
+  </servlet-mapping>
+  
+ <!--  
+ <context-param>
+    <param-name>com.sap.ui5.proxy.REMOTE_LOCATION</param-name>
+    <param-value>http://10.118.9.70:8000</param-value>
+  </context-param> 
+  -->
+
+
+  <!-- ============================================================== -->
+  <!-- Welcome file list                                              -->
+  <!-- ============================================================== -->
+
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+
+</web-app>

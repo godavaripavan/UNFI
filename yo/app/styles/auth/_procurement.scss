@@ -1,0 +1,89 @@
+.dsui{
+		.dsui-header{
+		}
+		.dsui-content{
+			.dsui-procurement{
+				.well{
+					background: #fff;
+					border: 0px;
+					box-shadow: transparent;
+				}
+				.dsui-toogle-selection{
+					.dsui-proc-pr{
+						font-weight: bold;
+						float:left;
+						padding:10px;
+					}
+					.dsui-proc-po{
+						font-weight: bold;
+						padding: 10px;
+						position: relative;
+						top: 7px;
+						right: 3px;
+					}
+					.dsui-proc-txt-hilight{
+						color: #00a1de;
+					}
+					.dsui-proc-txt-non-hilight{
+						color: #000;
+					}
+					@import 'auth/toggleSelection';
+				}
+				.dsui-procurement-pr{
+					@import 'auth/procurement/pr';
+				}
+				.dsui-procurement-po{
+					@import 'auth/procurement/po';
+				}
+				.dsui-proc-tabs{
+					@import 'auth/procurement/detailTabs';
+				}
+			}
+		}
+		.dsui-footer{
+		}
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+		.dsui{
+				.dsui-header{
+				}
+				.dsui-content{
+				}
+				.dsui-footer{
+				}
+		}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 992px) {
+		.dsui{
+				.dsui-header{
+				}
+				.dsui-content{
+				}
+				.dsui-footer{
+				}
+		}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+		.dsui{
+				.dsui-header{
+				}
+				.dsui-content{
+				}
+				.dsui-footer{
+				}
+		}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+		.dsui{
+				.dsui-header{
+				}
+				.dsui-content{
+				}
+				.dsui-footer{
+				}
+		}
+}

@@ -1,0 +1,252 @@
+@-webkit-keyframes animate-zoom {
+	0% {
+		-webkit-transform: scale(.5, .5);
+		transform: scale(.5, .5);
+		opacity: 0
+	}
+	100% {
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		opacity: 1
+	}
+}
+@keyframes animate-zoom {
+	0% {
+		-webkit-transform: scale(.5, .5);
+		transform: scale(.5, .5);
+		opacity: 0
+	}
+	100% {
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		opacity: 1
+	}
+}
+.dsui-loader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: #efefef;/*#00A3D9*/
+	color: #fff;
+	opacity: 1;
+	-webkit-transition: opacity 1s ease, z-index 1s ease;
+	-moz-transition: opacity 1s ease, z-index 1s ease;
+	-ms-transition: opacity 1s ease, z-index 1s ease;
+	-o-transition: opacity 1s ease, z-index 1s ease;
+	transition: opacity 1s ease, z-index 1s ease
+}
+.dsui-loader.dsui-loaded {
+	opacity: 0;
+	z-index: -1
+}
+.dsui-loader .dsui-loader-icon {
+	top: 50%;
+	left: 50%;
+	position: fixed;
+	font-size: 84px;
+	margin-left: -42px;
+	margin-top: -42px;
+}
+.dsui {
+	.dsui-green{
+	color:#2dcb70;
+	}
+	.dsui-red{
+		color:#d81d0a;
+	}
+	.dsui-yellow{
+		color:#f9c430;
+	}
+	.dsui-zero-padding{
+			padding: 0px !important;
+		}
+	input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus {
+		border-color: none !important;
+		-webkit-box-shadow: none !important;
+		-moz-box-shadow: none !important;
+		-ms-box-shadow: none !important;
+		-o-box-shadow: none !important;
+		box-shadow: none !important;
+		color: #000;
+	}
+	input::-webkit-input-placeholder{ /* WebKit browsers */
+		color: #cccccc;
+	}
+	input:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
+		color: #cccccc;
+	}
+	input::-moz-placeholder { /* Mozilla Firefox 19+ */
+		color: #cccccc;
+	}
+	input:-ms-input-placeholder{ /* Internet Explorer 10+ */
+		color: #cccccc;
+	}
+	.dsui-row-fix{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.dsui-left-padding-fix{
+		padding-left: 0px;
+	}
+	.dsui-right-padding-fix{
+		padding-right: 0px;
+	}
+	.dsui-color-white {
+		color: #fff;
+	}	
+	.dsui-color-grey{
+		color: #DCD9D8;
+	}
+	.dsui-color-black{
+		color: #000;
+	}
+	.dsui-color-red{
+		color: #D91E0D;
+	}
+	.dsui-color-blue{
+		color: #00A1DE;
+	}
+	.dsui-color-light-blue{
+		color: #36D8FA;
+	}
+	.dsui-color-green{
+		color: #2ECC71;
+	}
+	.dsui-color-light-green{
+		color: #89E5B9;
+	}
+	.dsui-bg-dark-grey{
+		background-color: #4A4A4A;
+	}
+	.dsui-bg-black{
+		background-color: #000;
+	}
+	.dsui-bg-white{
+		background-color: #FFFFFF;
+	}
+	.dsui-bg-light-black{
+		background-color: #333333;
+	}
+	.dsui-bg-red{
+		background-color: #D91E0D;
+	}
+	.dsui-bg-blue{
+		background-color: #00A1DE;
+	}
+	.dsui-bg-light-blue{
+		background-color: #36D8FA;
+	}
+	.dsui-bg-green{
+		background-color: #2ECC71;
+	}
+	.dsui-bg-light-green{
+		background-color: #89E5B9;
+	}
+	.dsui-btn-blue{
+		background:#00B1E4;
+		color: #fff;
+		border-color: #cfcfcf;
+		font-size: 0.875em;
+		&:hover{
+			background-color:#00A1DE;
+			color: #fff;
+		}
+		&:active{
+			background-color:#00A1DE;
+			color: #fff;
+		}
+	}
+	.dsui-btn-light-red{
+		background:#D51b32;
+		color: #fff;
+		border-color: #cfcfcf;
+		font-size: 0.875em;
+		&:hover{
+			background-color:#D51b32;
+			color: #fff;
+		}
+		&:active{
+			background-color:#D51b32;
+			color: #fff;
+		}
+	}
+	.dsui-zero-border-radius{
+		border-radius: 0px;
+	}
+	.dsui-pointer-cursor:hover{
+		cursor: pointer;
+	}
+	.dsui-text-decoration:hover{
+		text-decoration:underline;
+	}
+	.dsui-disable-anchor{
+		text-decoration:none;
+		cursor:default;
+	}
+	.dsui-bold-text{
+		font-weight: bold;
+	}
+	.dsui-zero-padding{
+		padding: 0;
+	}
+	.dsui-header {
+	}
+	.dsui-content {
+	}
+	.dsui-footer {
+	}
+}
+
+
+/* Large desktop */
+@media (min-width:1200px) {
+	.dsui {
+		.dsui-header {
+		}
+		.dsui-content {
+		}
+		.dsui-footer {
+		}
+	}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width:768px) and (max-width:992px) {
+	.dsui {
+		.dsui-header {
+		}
+		.dsui-content {
+		}
+		.dsui-footer {
+		}
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width:767px) {
+	.dsui {
+		.dsui-header {
+		}
+		.dsui-content {
+		}
+		.dsui-footer {
+		}
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width:480px) {
+	.dsui {
+		.dsui-header {
+		}
+		.dsui-content {
+		}
+		.dsui-footer {
+		}
+	}
+}

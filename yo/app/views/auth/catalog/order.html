@@ -1,0 +1,244 @@
+<div class="dsui-order clearfix">
+	<form name="orderForm" class="dsui-order-form"  data-ng-submit="fnSubmitOrder()">
+		<div class="col-md-9 dsui-order-details dsui-order-content-position clearfix">
+			<div class="row dsui-order-header-buttons">
+					<div class="col-md-8 col-md-offset-4 col-xs-12">
+							<div class="btn-toolbar pull-right" role="toolbar">
+							  <div class="btn-group dsui-last-three-orders dsui-pointer-cursor" data-ng-click="fnToggleLastThreeOrdersPopUp()" data-ng-show="!(order.orderCreatedStatus)">
+								<img src="images/assets/last-three-orders.png" />
+							  </div>
+							  <div class="btn-group dsui-top-ten-products dsui-pointer-cursor" data-ng-click="fnToggleTopTenProductsPopUp()" data-ng-show="!(order.orderCreatedStatus)">
+								<img src="images/assets/top-ten-products.png" />
+							  </div>
+							  <div class="btn-group dsui-order-notes dsui-pointer-cursor"><img src="images/assets/order-notes.png" /></div>
+							</div>
+					</div>
+			</div>
+			<div class="col-xs-12 dsui-zero-padding">
+				<div class="col-md-5">
+					<div><img data-ng-src="images/customer/{{order.customer.customerNo}}.jpg" data-ng-if="order.customer" class="img-responsive"/></div>
+				</div>
+				<div class="col-md-offset-2 col-md-5 dsui-left-padding-fix dsui-right-padding-fix">
+					<div class="col-md-5 dsui-left-padding-fix dsui-right-padding-fix">
+						<div class="dsui-color-grey">Account Details:</div>
+						<div class="dsui-order-running-text"><span>Acct #: </span><span data-ng-bind="order.customer.customerNo"></span></div>
+						<div class="dsui-order-running-text"><span>Type: </span><span data-ng-bind="order.customer.accountType"></span></div>
+						<div class="dsui-order-running-text"><span>Credit Check: </span><span data-ng-show="order.customer.accountCreditCheck=='OK'"><i class="fa fa-check dsui-color-green"></i></span></div>
+					</div>
+					<p class="clearfix visible-xs dsui-clearfix-fix">&nbsp;</p>
+					<p class="clearfix visible-sm dsui-clearfix-fix">&nbsp;</p>
+					<div class="col-md-offset-1 col-md-6 dsui-left-padding-fix dsui-right-padding-fix">
+						<div class="dsui-color-grey">Sales Data:</div>
+						<div class="dsui-order-running-text"><span>Sales Org: </span><span data-ng-bind="order.customer.salesOrg"></span></div>
+						<div class="dsui-order-running-text"><span>Distribution Channel: </span><span data-ng-bind="order.customer.salesDistribritutionChannel"></span></div>
+						<div class="dsui-order-running-text"><span>Division: </span><span data-ng-bind="order.customer.salesDivision"></span></div>
+					</div>
+				</div>
+			</div>
+			<p class="clearfix"/>
+			<p class="clearfix"/>
+			<div class="col-xs-12 dsui-zero-padding">
+				<div class="col-md-7">
+					<div class="col-md-7 dsui-left-padding-fix dsui-right-padding-fix">
+						<div class="dsui-color-grey">Order Details:</div>
+						<div class="dsui-order-running-text" data-ng-show="order.orderCreatedStatus"><span>Order Type: </span><span data-ng-bind="order.customer.docType"></span></div>
+						<div class="dsui-order-running-text" data-ng-show="order.salesOrderNumber"><span>MRC Order #: </span><span data-ng-bind="order.salesOrderNumber | truncateZeroes:'':''"></span></div>
+						<div class="dsui-order-running-text" data-ng-show="order.orderCreatedStatus"><span>Customer #: </span><span data-ng-bind="order.customer.customerNo | truncateZeroes:'':''"></span></div>
+						<div class="dsui-order-running-text"><span>Order Date: </span><span data-ng-bind="fnGetCurrentDate();"></span></div>
+						<div class="dsui-order-running-text"><span>Delivery Date: </span><span>
+							<input type="text" id="releaseDate" class="form-control dsui-order-delivery-date" data-ng-show="!(order.orderCreatedStatus)" data-ng-model="order.deliveryDate" datepicker-popup="MM/dd/yyyy" open="opened" min="minDate" datepicker-options="dateOptions" show-weeks="false"  data-ng-click="open()" data-ng-required="true" data-ng-change="fngetEffctonOrders()"/>
+								<span data-ng-show="order.orderCreatedStatus" data-ng-bind="fnGetDate(order.deliveryDate);"></span>
+							</span>
+
+						<!-- <span class="dsui-color-blue" data-ng-show="!(order.orderCreatedStatus)"> <span> <i class="fa fa-pencil"></i> </span><span>Edit</span></span> --></div>
+						<div>
+							<select class="form-control dsui-select-form-control" data-ng-model="order.customer.docType" data-ng-required="true" data-ng-show="!order.orderCreatedStatus">
+								<option disabled readonly selected value="">Order/Quote Type</option>
+								<option value="SO">Standard Order</option>
+								<option value="WP">Well Package</option>
+								<option value="EX">Exxon Order</option>
+								<option value="QO">Quote Order</option>
+								<option value="SE">Ship on Entry</option>
+								<option value="UP">UPS Order</option>
+							</select>
+						</div>
+					</div>
+					<p class="clearfix visible-xs dsui-clearfix-fix">&nbsp;</p>
+					<p class="clearfix visible-sm dsui-clearfix-fix">&nbsp;</p>
+					<div class="col-md-5 dsui-left-padding-fix dsui-right-padding-fix">
+						<div class="dsui-color-grey">Contact:<span class="dsui-color-blue dsui-order-running-text" data-ng-show="!(order.orderCreatedStatus)"> <span> <i class="fa fa-pencil"></i> </span><span>Edit</span></span></div>
+						<div class="dsui-order-running-text"><span data-ng-bind="order.customer.contactName"></span></div>
+						<div class="dsui-order-running-text"><span>Phone: </span><span data-ng-bind="order.customer.contactPhone"></span></div>
+						<div class="dsui-order-running-text"><span>Email: </span><span data-ng-bind="order.customer.contactEmail"></span></div>
+					</div>
+				</div>
+				<p class="clearfix visible-xs dsui-clearfix-fix">&nbsp;</p>
+				<p class="clearfix visible-sm dsui-clearfix-fix">&nbsp;</p>
+				<div class="col-md-5 dsui-left-padding-fix dsui-right-padding-fix">
+					<div class="col-md-5 dsui-left-padding-fix dsui-right-padding-fix">
+						<div class="dsui-color-grey">Bill-To Address:</div>
+						<div class="dsui-order-running-text"><span data-ng-bind="order.customer.customerName"></span></div>
+						<div class="dsui-order-running-text"><span data-ng-bind="order.customer.billingStreet"></span></div>
+						<div class="dsui-order-running-text"><span data-ng-bind="order.customer.billingCity"></span>, <span data-ng-bind="order.customer.billingState"></span>&nbsp;<span data-ng-bind="order.customer.billingZip"></span></div>
+					</div>
+					<p class="clearfix visible-xs dsui-clearfix-fix">&nbsp;</p>
+					<p class="clearfix visible-sm dsui-clearfix-fix">&nbsp;</p>
+					<div class="col-md-offset-1 col-md-6 dsui-left-padding-fix dsui-right-padding-fix">
+						<div class="dsui-color-grey">Ship-To Address:<span class="dsui-color-blue dsui-order-running-text" data-ng-show="!(order.orderCreatedStatus)"> <span> <i class="fa fa-pencil"></i> </span><span>Edit</span></span></div>
+						<div class="dsui-order-running-text"><span data-ng-bind="order.customer.customerName"></span></div>
+						<div class="dsui-order-running-text"><span data-ng-bind="order.customer.shipToStreet" ></span></div>
+						<div class="dsui-order-running-text"><span data-ng-bind="order.customer.shipToCity"></span>, <span data-ng-bind="order.customer.shipToState"></span>&nbsp;<span data-ng-bind="order.customer.shipToZip"></span></div>
+						<div data-ng-show="!(order.orderCreatedStatus)">
+							<select class="form-control dsui-select-address-form-control" data-ng-required="true" data-ng-model="order.customer.shippingMethod">
+								<option disabled readonly selected value="">Shipping Method</option>
+								<option value="Choose Best">Choose Best</option>
+								<option value="Our truck">Our truck</option>
+								<option value="UPS">UPS</option>
+								<option value="FedEx">FedEx</option>
+								<option value="Other">Other</option>
+							</select>
+						</div>
+						<div class="dsui-order-running-text" data-ng-show="(order.orderCreatedStatus)">Shipping Method: <span data-ng-bind="order.customer.shippingMethod"></span></div>
+					</div>
+				</div>
+			</div>
+			<p class="clearfix">&nbsp;</p>
+			<div class="col-xs-12 dsui-left-padding-fix">
+				<div class="col-xs-12 col-sm-12 col-md-12 dsui-color-grey">Additional Customer Data:</div>
+			</div>
+			<div class="col-xs-12 dsui-left-padding-fix" data-ng-show="!(order.orderCreatedStatus)">
+				<div class="col-sm-3 col-md-2 dsui-input-label dsui-left-padding-fix dsui-right-padding-fix">Purchase Order#:</div>
+				<div class="col-sm-3 col-md-2"><input type="text" class="form-control dsui-input-form-control" data-ng-model="order.customer.customerPo"/></div>
+				<div class="col-sm-3 col-md-2 dsui-input-label">AFE #</div>
+				<div class="col-sm-3 col-md-2"><input type="text" class="form-control dsui-input-form-control" data-ng-required="true" data-ng-model="order.customer.afe"/></div>
+				<div class="clearfix visible-sm"></div>
+				<div class="col-sm-3 col-md-2 dsui-input-label">Rig #</div>
+				<div class="col-sm-3 col-md-2"><input type="text" class="form-control dsui-input-form-control" data-ng-required="true"  data-ng-model="order.customer.rig"/></div>
+				<div class="clearfix visible-md"></div>
+				<div class="col-sm-3 col-md-2 dsui-input-label dsui-left-padding-fix dsui-right-padding-fix">Field #</div>
+				<div class="col-sm-3 col-md-2"><input type="text" class="form-control dsui-input-form-control"  data-ng-required="true"  data-ng-model="order.customer.field"/></div>
+				<div class="clearfix visible-sm"></div>
+				<div class="col-sm-3 col-md-2 dsui-input-label">WBS #</div>
+				<div class="col-sm-3 col-md-2"><input type="text" class="form-control dsui-input-form-control"  data-ng-required="true"  data-ng-model="order.customer.wbs"/></div>
+				<div class="col-sm-3 col-md-2 dsui-input-label">Job #</div>
+				<div class="col-sm-3 col-md-2"><input type="text" class="form-control dsui-input-form-control" data-ng-required="true"  data-ng-model="order.customer.job"/></div>
+			</div>
+			<div class="col-xs-12 dsui-left-padding-fix" data-ng-show="order.orderCreatedStatus">
+				<div class="col-sm-4 dsui-font-weight-100 text-left">Purchase Order#: <span data-ng-bind="order.customer.customerPo"></span></div>
+				<div class="col-sm-4 dsui-font-weight-100 text-left">Rig #: <span data-ng-bind="order.customer.rig"></span></div>
+				<div class="col-sm-4 dsui-font-weight-100 text-left">WBS #: <span data-ng-bind="order.customer.wbs"></span></div>
+				<div class="clearfix visible-sm"></div>
+				<div class="col-sm-4 dsui-font-weight-100 text-left">AFE #: <span data-ng-bind="order.customer.afe"></span></div>
+				<div class="col-sm-4 dsui-font-weight-100 text-left">Field #: <span data-ng-bind="order.customer.field"></span></div>
+				<div class="col-sm-4 dsui-font-weight-100 text-left">Job #: <span data-ng-bind="order.customer.job"></span></div>
+			</div>
+			<p class="clearfix">&nbsp;</p>
+			<div class="col-xs-12 dsui-left-padding-fix">
+				<div class="col-xs-12 col-sm-12 col-md-12 dsui-color-grey">Order Products:</div>
+			</div>
+			<div class="col-xs-12 table-responsive dsui-order-products">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Part Name</th>
+							<th>Type</th>
+							<th>Qty.</th>
+							<th>Cost</th>
+							<th>Price</th>
+							<th>Margin(%)</th>
+							<th>Delivery Date</th>
+							<th>Cust.Tag #</th>
+							<th>CPO. Line#</th>
+							<th>Notes</th>
+							<th data-ng-show="!order.orderCreatedStatus">Remove</th>
+							<th data-ng-show="order.orderCreatedStatus">Reference Doc</th>
+						</tr>
+					</thead>
+					<tbody class="dsui-order-table">
+						<tr data-ng-repeat="orderitem in order.orders">	
+							<td><span data-ng-bind="orderitem.productName"></span><br/><span data-ng-bind="trimNumber(orderitem.productId)"></span><br/>
+							<span data-ng-bind="orderitem.plantLocation"></span><br/>
+							<span data-ng-bind="orderitem.plantId"></span><br/>
+							<span data-ng-bind="orderitem.availableQuantity"></span>
+							<td class="text-left"><img src="images/assets/stock.png" data-ng-show="orderitem.from=='stock'"/><img src="images/assets/crossdock.png" data-ng-show="orderitem.from=='crossdock'"/><img src="images/assets/buyout.png" data-ng-show="orderitem.from=='buyout'"/></td>
+							<td class="text-left">
+								<input type="number" data-ng-show="!(order.orderCreatedStatus)" min="1" class="form-control dsui-order-quantity" data-ng-model="orderitem.quantity" data-ng-required="true"/>
+								<span data-ng-show="order.orderCreatedStatus" data-ng-bind="orderitem.quantity"></span>
+							</td>
+							<td data-ng-click="fnOpenCostAnalysisModal()" class="text-right dsui-pointer-cursor">$<span data-ng-bind="orderitem.price | limitToTwo: '':''"></span></td>
+							<td data-ng-click="fnOpenPriceAnalysisModal()" class="dsui-pointer-cursor">
+								<div class="input-group dsui-itemPrice" data-ng-show="!(order.orderCreatedStatus)">
+								  <span class="input-group-addon dsui-dollar-addon dsui-order-quantity">$</span>
+								  <input type="text" step="any" class="form-control dsui-order-price-input dsui-order-quantity" min="1" data-ng-required="true" data-ng-model="orderitem.newPrice" />
+								</div>
+								<span data-ng-show="order.orderCreatedStatus" class="text-right">$<span data-ng-bind="orderitem.newPrice | limitToTwo: '':''"></span></span>
+							</td>
+							<td>
+							<span data-ng-show="!(order.orderCreatedStatus)"><input type="text" class="dsui-margin-field"    data-ng-model="orderitem.marginShare" data-ng-change="fnLineItemNewPrice(orderitem)" /></span><span data-ng-show="false" data-ng-bind="fnLineItemMarginPercentage(orderitem)"></span>
+							<span data-ng-show="order.orderCreatedStatus"><span data-ng-bind="orderitem.marginShare"></span><span>%</span></span>
+							</td> 
+							<td class="text-left">
+								<input type="text" id="releaseDate" class="form-control dsui-order-quantity" data-ng-show="!(order.orderCreatedStatus)" data-ng-model="orderitem.productDeliveryDate" datepicker-popup="MM/dd/yyyy" open="opened" min="minDate" datepicker-options="dateOptions" show-weeks="false"  data-ng-click="open()" data-ng-required="true"/>
+								<span data-ng-show="order.orderCreatedStatus" data-ng-bind="fnGetDate(orderitem.productDeliveryDate);"></span>
+							</td>
+							<td>
+								<input type="text" data-ng-show="!(order.orderCreatedStatus)" class="form-control dsui-order-quantity" data-ng-model="orderitem.customTag" />
+								<span data-ng-show="order.orderCreatedStatus" data-ng-bind="orderitem.customTag"></span>
+							</td>
+							<td>
+								<input type="text" data-ng-show="!(order.orderCreatedStatus)" class="form-control dsui-order-quantity" data-ng-model="orderitem.customPO" />
+								<span data-ng-show="order.orderCreatedStatus" data-ng-bind="orderitem.customPO"></span>
+							</td>
+							<td class="text-center"><i class="fa fa-pencil dsui-color-light-blue"></i></td>
+							<td class="text-center" data-ng-show="!(order.orderCreatedStatus)"><i class="glyphicon glyphicon-remove dsui-color-red dsui-pointer-cursor" data-ng-click="fnRemoveLineItem($index);"></i></td>
+							<td class="text-left" data-ng-show="order.orderCreatedStatus"><i class="fa fa-file-text-o dsui-color-light-blue"  data-ng-hide="(orderitem.from == 'stock')" tooltip="{{tooltipText}}" data-ng-mouseover="fnTooltip(orderitem);" data-ng-click="fnTransferToProcurementTab(orderitem);"></i></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-xs-12 text-right">
+				<button type="button" class="btn dsui-bg-blue dsui-color-white" data-ng-click="fnSubmitOrderProduct()" data-ng-disabled="(order.orderCreatedStatus)">Add Products</button>
+				<button type="button" class="btn dsui-bg-blue dsui-color-white" data-ng-show="(order.orderCreatedStatus)" data-ng-click="fnModifySalesOrder()">Modify Order</button>
+			</div>
+		</div>
+		<div class="col-md-3 dsui-order-margin dsui-zero-padding dsui-order-content-position">
+			<div class="dsui-order-margins">
+				<div class="well text-center dsui-margin-well">
+					<span class="dsui-font-margin-label">Total Margin ($)</span><br />
+					<span class="dsui-font-margin-text dsui-color-light-green">$</span><span class="dsui-font-margin-text dsui-color-light-green" data-ng-bind="fnGetTotalMarginAmount()" ></span>
+				</div>
+				<div class="well text-center dsui-margin-well">
+					<span class="dsui-font-margin-label">Total Margin (%)</span><br />
+					<span class="dsui-font-margin-text dsui-color-light-green" data-ng-bind="fnGetTotalMarginPercent()"></span><span class="dsui-font-margin-text dsui-color-light-green">%</span>
+				</div>
+				<div class="well text-center dsui-margin-well">
+					<span class="dsui-font-margin-label">Total Cost</span><br />
+					<span class="dsui-font-margin-text dsui-color-light-blue">$</span><span class="dsui-font-margin-text dsui-color-light-blue" data-ng-bind="fnGetTotalCost()"></span>
+				</div>
+				<div class="well text-center dsui-margin-well">
+					<span class="dsui-font-margin-label">Total Price</span><br />
+					<span class="dsui-font-margin-text dsui-color-light-blue">$</span><span class="dsui-font-margin-text dsui-color-light-blue" data-ng-bind="fnGetTotalPrice()"></span>
+				</div>
+			</div>
+			<div class="dsui-order-totals col-xs-12">
+				<div><div class="col-xs-9 dsui-left-padding-fix text-left dsui-right-padding-fix">Total Products:</div><div class="col-xs-3 text-left dsui-left-padding-fix" data-ng-bind="order.orders.length"></div></div>
+				<div><div class="col-xs-9 dsui-left-padding-fix text-left dsui-right-padding-fix">Total Qty:</div><div class="col-xs-3 text-left dsui-left-padding-fix" data-ng-bind="fnGetTotalProductQuantity();"></div></div>
+				<div>&nbsp;</div>
+				<div><div class="col-xs-9 dsui-left-padding-fix text-left dsui-right-padding-fix">Subtotal:</div><div class="col-xs-3 text-left dsui-left-padding-fix">$<span data-ng-bind="fnGetTotalPrice()"></span></div></div>
+				<div><div class="col-xs-9 dsui-left-padding-fix text-left dsui-right-padding-fix">Tax (10%):</div><div class="col-xs-3 text-left dsui-left-padding-fix">$<span data-ng-bind="fnGetTaxAmount(false)"></span></div></div>
+				<div class="dsui-bold-text"><div class="col-xs-9 dsui-left-padding-fix text-left dsui-right-padding-fix">Total:</div><div class="col-xs-3 text-left dsui-left-padding-fix">$<span data-ng-bind="fnGetTaxAmount(true)"></span></div></div>
+			</div>
+			<div class="dsui-order-actions col-xs-12 dsui-bg-green dsui-left-padding-fix dsui-right-padding-fix" data-ng-show="!order.orderCreatedStatus">
+				<button type="submit" class="col-xs-6 text-center dsui-order-action">Submit Order</button>
+				<button type="button" class="col-xs-6 text-center dsui-order-action" style="border-left:1px solid #fff;">Submit Quote</button>
+			</div>
+			<div class="dsui-order-actions col-xs-12 dsui-bg-green" data-ng-show="order.orderCreatedStatus">
+				<div class="col-xs-6 text-center dsui-order-action">Email</div>
+				<div class="col-xs-6 text-center dsui-left-padding-fix dsui-order-action" style="border-left:1px solid #fff;">Print</div>
+			</div>
+			<div data-ng-include="order.topTenProducts"></div>
+			<div data-ng-include="order.lastThreeOrders"></div>
+			<div data-ng-include="order.costAndPriceModals"></div>
+		</div>
+	</form>
+</div>

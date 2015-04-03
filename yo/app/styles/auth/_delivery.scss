@@ -1,0 +1,66 @@
+.dsui{
+		.dsui-header{
+		}
+		.dsui-content{
+			.dsui-delivery{
+				.dsui-delivery-create{
+					background-color: #fff;
+					@import 'auth/delivery/create';
+				}
+				.dsui-delivery-list{
+					background-color: #fff;
+					@import 'auth/delivery/list';
+				}
+				.dsui-delivery-detail{
+					background-color: #fff;
+					@import 'auth/delivery/detail';
+				}
+			}
+		}
+		.dsui-footer{
+		}
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+		.dsui{
+				.dsui-header{
+				}
+				.dsui-content{
+				}
+				.dsui-footer{
+				}
+		}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 992px) {
+		.dsui{
+				.dsui-header{
+				}
+				.dsui-content{
+				}
+				.dsui-footer{
+				}
+		}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+		.dsui{
+				.dsui-header{
+				}
+				.dsui-content{
+				}
+				.dsui-footer{
+				}
+		}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+		.dsui{
+				.dsui-header{
+				}
+				.dsui-content{
+				}
+				.dsui-footer{
+				}
+		}
+}
