@@ -1,1 +1,0 @@
-this folder includes filters for the application

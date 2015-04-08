@@ -1,9 +1,0 @@
-<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
-   <env:Header/>
-   <env:Body>
-      <n0:ZbapiGoodsmvtCreateResponse xmlns:n0="urn:sap-com:document:sap:soap:functions:mc-style">
-         <EvMatdoc>5000000113</EvMatdoc>
-         <ItReturn/>
-      </n0:ZbapiGoodsmvtCreateResponse>
-   </env:Body>
-</env:Envelope>

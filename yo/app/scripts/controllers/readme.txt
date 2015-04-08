@@ -1,1 +1,0 @@
-all the script controllers are included in this folder
